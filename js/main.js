@@ -143,31 +143,38 @@
   if (!items.length || !('IntersectionObserver' in window)) return;
 
   /* Easing: ease-out cubic */
-  const easeOut = t => 1 - Math.pow(1 - t, 3);
+  const easeOut = t => 1 - Math.pow(1 - t, 5);
 
   const animate = el => {
+    if (el._rafId) cancelAnimationFrame(el._rafId);
     const from     = parseInt(el.dataset.from   ?? '0', 10);
     const target   = parseInt(el.dataset.target,         10);
     const prefix   = el.dataset.prefix   ?? '';
     const suffix   = el.dataset.suffix   ?? '';
-    const duration = 1800;
+    const duration = el._seen ? 1200 : 1800;
+    el._seen = true;
     const start    = performance.now();
 
     const step = now => {
       const progress = Math.min((now - start) / duration, 1);
       const value    = Math.round(from + (target - from) * easeOut(progress));
       el.textContent = prefix + value + suffix;
-      if (progress < 1) requestAnimationFrame(step);
+      if (progress < 1) el._rafId = requestAnimationFrame(step);
     };
 
-    requestAnimationFrame(step);
+    el._rafId = requestAnimationFrame(step);
+  };
+
+  const reset = el => {
+    if (el._rafId) { cancelAnimationFrame(el._rafId); el._rafId = null; }
+    const from   = parseInt(el.dataset.from ?? '0', 10);
+    el.textContent = (el.dataset.prefix ?? '') + from + (el.dataset.suffix ?? '');
   };
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      if (!entry.isIntersecting) return;
-      animate(entry.target);
-      observer.unobserve(entry.target);
+      if (entry.isIntersecting) animate(entry.target);
+      else reset(entry.target);
     });
   }, { threshold: 0.6 });
 
@@ -223,6 +230,9 @@
     '.project-item',
     '.contact-info-card',
     '.feature-card',
+    '.about-content__text',
+    '.about-content__title',
+    '#kontaktformular',
   ].join(', ');
 
   const targets = document.querySelectorAll(selector);

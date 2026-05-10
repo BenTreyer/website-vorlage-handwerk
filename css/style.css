@@ -24,8 +24,8 @@
   --color-border:         #DDD0BE;
 
   /* SCHRIFTEN HIER ANPASSEN */
-  --font-heading: Georgia, 'Times New Roman', serif;
-  --font-body:    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body:    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
 
   /* Schriftgrößen */
   --fs-xs:   0.75rem;
@@ -1231,4 +1231,54 @@ textarea.form-control { min-height: 140px; resize: vertical; }
   }
 
   .main-nav__cta .btn { width: 100%; justify-content: center; }
+}
+
+/* =============================================
+   26. PREMIUM UPGRADES
+   ============================================= */
+
+/* --- Wave dividers --- */
+.wave-divider {
+  display: block;
+  line-height: 0;
+  overflow: hidden;
+  margin: -1px 0;
+}
+.wave-divider svg {
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+
+/* --- Gold CTA button --- */
+.btn--cta {
+  background-color: #B8832A;
+  color: var(--color-white);
+  border-color: #B8832A;
+}
+.btn--cta:hover {
+  background-color: #9A6D22;
+  border-color: #9A6D22;
+  color: var(--color-white);
+}
+
+/* --- Service card background numbers --- */
+.service-detail-card__body {
+  position: relative;
+  overflow: hidden;
+}
+
+.service-detail-card__bg-num {
+  position: absolute;
+  bottom: -0.12em;
+  right: -0.04em;
+  font-family: var(--font-heading);
+  font-size: clamp(6rem, 11vw, 9rem);
+  font-weight: 800;
+  line-height: 1;
+  color: var(--color-primary);
+  opacity: 0.06;
+  pointer-events: none;
+  user-select: none;
+  letter-spacing: -0.02em;
 }
