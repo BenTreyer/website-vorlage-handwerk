@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEITENTITEL HIER ANPASSEN -->
+  <title>Zimmerei Muster GmbH – Handwerk mit Tradition und Leidenschaft</title>
+
+  <!-- META-BESCHREIBUNG HIER ANPASSEN (max. 160 Zeichen) -->
+  <meta name="description" content="Zimmerei Muster GmbH aus Musterstadt – Ihr verlässlicher Partner für Dachstuhlbau, Holzrahmenbau, Innenausbau und Restaurierung. Seit 1985 in der Region verwurzelt." />
+
+  <!-- FAVICON HIER EINBINDEN -->
+  <!-- <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" /> -->
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Barrierefreiheit: Direkt zum Inhalt springen -->
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+  <!-- ============================================================
+       HEADER & NAVIGATION
+       Logo, Firmenname und Menüpunkte anpassen.
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- LOGO: Initialen + Firmenname anpassen -->
+      <!-- FIRMENNAME & INITIALEN HIER ANPASSEN -->
+      <a href="index.html" class="logo" aria-label="Zimmerei Muster – Startseite">
+        <svg class="logo__icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="44" height="44" rx="8" fill="#5C3D2E"/>
+          <!-- INITIALEN HIER ANPASSEN (z. B. "ZM" → "SW" für Schreinerei Wagner) -->
+          <text x="22" y="29" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F3EAD8">ZM</text>
+        </svg>
+        <span class="logo__text">
+          <!-- FIRMENNAME HIER ANPASSEN -->
+          <span class="logo__name">Zimmerei Muster</span>
+          <!-- SLOGAN / ZUSATZ HIER ANPASSEN -->
+          <span class="logo__sub">GmbH &middot; seit 1985</span>
+        </span>
+      </a>
+
+      <!-- Hamburger (nur mobil sichtbar) -->
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <!-- Hauptnavigation -->
+      <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+        <ul class="main-nav__list" role="list">
+          <!-- MENÜPUNKTE HIER ANPASSEN -->
+          <li class="main-nav__item"><a href="index.html">Startseite</a></li>
+          <li class="main-nav__item"><a href="leistungen.html">Leistungen</a></li>
+          <li class="main-nav__item"><a href="ueber-uns.html">Über uns</a></li>
+          <li class="main-nav__item"><a href="aktuelles.html">Aktuelles</a></li>
+        </ul>
+        <div class="main-nav__cta">
+          <!-- KONTAKT-LINK HIER ANPASSEN -->
+          <a href="#kontakt" class="btn btn--primary">Kontakt aufnehmen</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ============================================================
+       HAUPTINHALT
+       ============================================================ -->
+  <main id="main">
+
+    <!-- =====================================================
+         HERO-BEREICH
+         Bild, Überschrift und Buttons anpassen.
+         ===================================================== -->
+    <section class="hero" aria-label="Willkommen bei Zimmerei Muster">
+      <div class="hero__image" aria-hidden="true">
+        <!-- HERO-BILD HIER AUSTAUSCHEN (empfohlene Größe: min. 1600 × 900 px) -->
+        <img
+          src="https://picsum.photos/seed/zimmerei-hero/1600/900"
+          alt="Zimmerer bei der Arbeit am Dachstuhl bei Sonnenuntergang"
+          width="1600"
+          height="900"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <!-- SCHLAGWORT HIER ANPASSEN -->
+        <span class="hero__tag">Handwerk aus Überzeugung</span>
+        <!-- HAUPT-ÜBERSCHRIFT HIER ANPASSEN -->
+        <h1 class="hero__title">Holz verbindet –<br>Qualität überzeugt.</h1>
+        <!-- HERO-TEXT HIER ANPASSEN -->
+        <p class="hero__lead">
+          Als familiengeführte Zimmerei mit über 35 Jahren Erfahrung realisieren wir
+          Ihre Projekte mit Handwerkskunst, regionalen Materialien und einem Team,
+          das mit Leidenschaft bei der Sache ist.
+        </p>
+        <div class="hero__actions">
+          <!-- BUTTONS HIER ANPASSEN -->
+          <a href="leistungen.html" class="btn btn--primary btn--lg">Unsere Leistungen</a>
+          <a href="#kontakt" class="btn btn--outline-white btn--lg">Kostenlos anfragen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         VORTEILE / USP
+         3 Alleinstellungsmerkmale anpassen.
+         ===================================================== -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <!-- TAG & TITEL HIER ANPASSEN -->
+          <span class="section__tag">Warum Zimmerei Muster?</span>
+          <h2 class="section__title">Verlässlichkeit, die man spürt</h2>
+          <p class="section__lead">
+            Drei Gründe, warum Handwerker und Privatkunden uns seit Jahrzehnten vertrauen.
+          </p>
+        </div>
+
+        <div class="features">
+
+          <!-- VORTEIL 1 HIER ANPASSEN -->
+          <div class="feature-card">
+            <!-- SVG: Uhr / Pünktlichkeit -->
+            <svg class="feature-card__icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2.2"/>
+              <path d="M24 13v11l7 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div>
+              <h3 class="feature-card__title">Pünktlich und zuverlässig</h3>
+              <p class="feature-card__text">
+                Ihre Termine sind uns heilig. Wir planen realistisch und halten unsere
+                Zusagen – auch dann, wenn es auf der Baustelle mal komplizierter wird.
+              </p>
+            </div>
+          </div>
+
+          <!-- VORTEIL 2 HIER ANPASSEN -->
+          <div class="feature-card">
+            <!-- SVG: Blatt / Nachhaltigkeit -->
+            <svg class="feature-card__icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M8 40c4-16 12-24 32-28C36 36 28 42 8 40z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" fill="currentColor" fill-opacity="0.12"/>
+              <path d="M8 40c6-8 14-13 24-18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+            <div>
+              <h3 class="feature-card__title">Regionale Materialien</h3>
+              <p class="feature-card__text">
+                Unser Holz stammt aus nachhaltiger Forstwirtschaft der Region – kurze Wege,
+                beste Qualität und ein gutes Gewissen für Mensch und Umwelt.
+              </p>
+            </div>
+          </div>
+
+          <!-- VORTEIL 3 HIER ANPASSEN -->
+          <div class="feature-card">
+            <!-- SVG: Häkchen / Qualität -->
+            <svg class="feature-card__icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2.2"/>
+              <path d="M14 24l8 8 12-14" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div>
+              <h3 class="feature-card__title">Geprüfte Handwerksqualität</h3>
+              <p class="feature-card__text">
+                Jeder Handgriff folgt höchsten Standards. Unsere Arbeiten sind zertifiziert
+                und tragen die Handwerkssignatur der Zimmererinnung Bayern.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         LEISTUNGEN-VORSCHAU
+         Icons und Texte der 4 Leistungen anpassen.
+         ===================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <!-- TAG & TITEL HIER ANPASSEN -->
+          <span class="section__tag">Was wir für Sie tun</span>
+          <h2 class="section__title">Unsere Leistungen im Überblick</h2>
+          <p class="section__lead">
+            Vom Dachstuhl bis zum letzten Nagel – wir übernehmen Ihr Holzbauprojekt vollständig.
+          </p>
+        </div>
+
+        <div class="grid-4">
+
+          <!-- LEISTUNG 1 HIER ANPASSEN -->
+          <div class="service-card">
+            <div class="service-card__icon-wrap">
+              <!-- SVG: Dachstuhl / Dach -->
+              <svg class="service-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M3 15L18 4l15 11" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <rect x="7" y="15" width="22" height="17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M18 4v28M3 15h30" stroke="currentColor" stroke-width="1.4" stroke-dasharray="2.5 2.5"/>
+                <path d="M18 8l-9 7M18 8l9 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Dachstuhlbau</h3>
+              <p class="service-card__text">
+                Planung, Vorfertigung und Montage maßgeschneiderter Dachstühle –
+                für Neubau und energetische Sanierung.
+              </p>
+              <a href="leistungen.html#dachstuhlbau" class="btn btn--outline">Mehr erfahren</a>
+            </div>
+          </div>
+
+          <!-- LEISTUNG 2 HIER ANPASSEN -->
+          <div class="service-card">
+            <div class="service-card__icon-wrap">
+              <!-- SVG: Haus / Holzrahmenbau -->
+              <svg class="service-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M4 14l14-9 14 9v18H4V14z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <rect x="13" y="22" width="10" height="10" stroke="currentColor" stroke-width="1.8"/>
+                <path d="M4 14h28M13 14v18M23 14v18M4 22h28" stroke="currentColor" stroke-width="1.4" stroke-dasharray="2.5 2.5"/>
+              </svg>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Holzrahmenbau</h3>
+              <p class="service-card__text">
+                Moderne Holzrahmenkonstruktionen – energieeffizient, schnell errichtet
+                und nachhaltig in Material und Betrieb.
+              </p>
+              <a href="leistungen.html#holzrahmenbau" class="btn btn--outline">Mehr erfahren</a>
+            </div>
+          </div>
+
+          <!-- LEISTUNG 3 HIER ANPASSEN -->
+          <div class="service-card">
+            <div class="service-card__icon-wrap">
+              <!-- SVG: Treppe / Innenausbau -->
+              <svg class="service-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M6 30h6V24h6v-6h6v-6h6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <line x1="6" y1="6" x2="6" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="6" y1="30" x2="30" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Innenausbau</h3>
+              <p class="service-card__text">
+                Treppen, Türen, Fenster, Vertäfelungen – wir bringen Holz als
+                wohngesundes Gestaltungselement in Ihre Räume.
+              </p>
+              <a href="leistungen.html#innenausbau" class="btn btn--outline">Mehr erfahren</a>
+            </div>
+          </div>
+
+          <!-- LEISTUNG 4 HIER ANPASSEN -->
+          <div class="service-card">
+            <div class="service-card__icon-wrap">
+              <!-- SVG: Schraubenzieher & Hammer / Restaurierung -->
+              <svg class="service-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M28 6l-4 4-2.5-2.5 4-4A6.5 6.5 0 0016 12L5 23a2.5 2.5 0 003.5 3.5L19.5 16A6.5 6.5 0 0028 6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                <circle cx="9.5" cy="25.5" r="2" fill="currentColor"/>
+                <path d="M22 14l6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="service-card__body">
+              <h3 class="service-card__title">Restaurierung</h3>
+              <p class="service-card__text">
+                Historische Holzkonstruktionen schonend sanieren – wir erhalten das
+                Handwerk vergangener Generationen für die Zukunft.
+              </p>
+              <a href="leistungen.html#restaurierung" class="btn btn--outline">Mehr erfahren</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         REFERENZPROJEKTE
+         Bilder und Beschriftungen anpassen.
+         ===================================================== -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <!-- TAG & TITEL HIER ANPASSEN -->
+          <span class="section__tag">Unsere Arbeit spricht für sich</span>
+          <h2 class="section__title">Ausgewählte Referenzprojekte</h2>
+          <p class="section__lead">
+            Einblick in Projekte, die wir mit Sorgfalt und Leidenschaft umgesetzt haben.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- REFERENZPROJEKT 1 HIER ANPASSEN (Bild-Seed, Alt-Text, Label) -->
+          <div class="project-item">
+            <img
+              src="https://picsum.photos/seed/projekt-dach1/600/450"
+              alt="Neubau-Dachstuhl Einfamilienhaus in Musterstadt, 2023"
+              width="600" height="450"
+              loading="lazy"
+            />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Einfamilienhaus Musterstadt</span>
+            </div>
+          </div>
+
+          <!-- REFERENZPROJEKT 2 HIER ANPASSEN -->
+          <div class="project-item">
+            <img
+              src="https://picsum.photos/seed/projekt-scheune1/600/450"
+              alt="Restaurierung historische Fachwerkscheune Gut Bergfeld"
+              width="600" height="450"
+              loading="lazy"
+            />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Scheune Gut Bergfeld</span>
+            </div>
+          </div>
+
+          <!-- REFERENZPROJEKT 3 HIER ANPASSEN -->
+          <div class="project-item">
+            <img
+              src="https://picsum.photos/seed/projekt-holzbau1/600/450"
+              alt="Holzrahmenbau Mehrfamilienhaus Waldstraße"
+              width="600" height="450"
+              loading="lazy"
+            />
+            <div class="project-item__overlay">
+              <span class="project-item__label">MFH Holzrahmenbau Waldstraße</span>
+            </div>
+          </div>
+
+          <!-- REFERENZPROJEKT 4 HIER ANPASSEN -->
+          <div class="project-item">
+            <img
+              src="https://picsum.photos/seed/projekt-terrasse1/600/450"
+              alt="Terrassenüberdachung aus Lärchenholz"
+              width="600" height="450"
+              loading="lazy"
+            />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Terrassenüberdachung Lärche</span>
+            </div>
+          </div>
+
+          <!-- REFERENZPROJEKT 5 HIER ANPASSEN -->
+          <div class="project-item">
+            <img
+              src="https://picsum.photos/seed/projekt-gaube1/600/450"
+              alt="Dachgaube und Dachausbau Altbau Seestraße"
+              width="600" height="450"
+              loading="lazy"
+            />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Dachausbau Altbau Seestraße</span>
+            </div>
+          </div>
+
+          <!-- REFERENZPROJEKT 6 HIER ANPASSEN -->
+          <div class="project-item">
+            <img
+              src="https://picsum.photos/seed/projekt-treppe1/600/450"
+              alt="Maßgeschneiderte Holztreppe Innenausbau Villa Sonnenweg"
+              width="600" height="450"
+              loading="lazy"
+            />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Innentreppe Villa Sonnenweg</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         CTA-BANNER
+         Titel, Text, Telefonnummer anpassen.
+         ===================================================== -->
+    <section class="cta-banner">
+      <div class="container">
+        <!-- CTA-ÜBERSCHRIFT HIER ANPASSEN -->
+        <h2 class="cta-banner__title">Ihr nächstes Projekt wartet auf uns</h2>
+        <!-- CTA-TEXT HIER ANPASSEN -->
+        <p class="cta-banner__text">
+          Kontaktieren Sie uns für eine unverbindliche Beratung. Wir besichtigen Ihr
+          Vorhaben gerne vor Ort und erstellen ein transparentes, faires Angebot.
+        </p>
+        <div class="cta-banner__actions">
+          <a href="#kontakt" class="btn btn--outline-white btn--lg">Jetzt Kontakt aufnehmen</a>
+          <!-- TELEFONNUMMER HIER ANPASSEN -->
+          <a href="tel:+4989123456780" class="btn btn--outline-white btn--lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+            </svg>
+            <!-- TELEFONNUMMER HIER ANPASSEN -->
+            089 12 34 56&thinsp;–&thinsp;0
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         KONTAKTFORMULAR
+         Formular-Action / API-Endpunkt im JS anpassen.
+         ===================================================== -->
+    <section class="section contact-section" id="kontakt">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Nehmen Sie Kontakt auf</span>
+          <!-- ÜBERSCHRIFT HIER ANPASSEN -->
+          <h2 class="section__title">Wir freuen uns auf Ihr Projekt</h2>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Kontaktformular -->
+          <!-- FORMULAR-VERSAND IN js/main.js ANPASSEN -->
+          <form class="contact-form" id="kontaktformular" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="name">Ihr Name <span aria-hidden="true">*</span></label>
+              <input class="form-control" type="text" id="name" name="name" required autocomplete="name" placeholder="Max Mustermann" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">E-Mail-Adresse <span aria-hidden="true">*</span></label>
+              <input class="form-control" type="email" id="email" name="email" required autocomplete="email" placeholder="max@beispiel.de" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="telefon">Telefon <span style="font-weight:400;color:var(--color-text-muted);">(optional)</span></label>
+              <input class="form-control" type="tel" id="telefon" name="telefon" autocomplete="tel" placeholder="089 12 34 56 – 0" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="betreff">Betreff</label>
+              <input class="form-control" type="text" id="betreff" name="betreff" placeholder="z. B. Dachstuhlbau – Neubauprojekt" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="nachricht">Ihre Nachricht <span aria-hidden="true">*</span></label>
+              <textarea class="form-control" id="nachricht" name="nachricht" required placeholder="Beschreiben Sie kurz Ihr Vorhaben …"></textarea>
+            </div>
+            <!-- DATENSCHUTZ-LINK HIER ANPASSEN -->
+            <p style="font-size:0.78rem;color:var(--color-text-muted);margin-bottom:1rem;line-height:1.5;">
+              Mit dem Absenden stimmen Sie unserer
+              <a href="#" style="color:var(--color-secondary);text-decoration:underline;">Datenschutzerklärung</a> zu.
+            </p>
+            <button type="submit" class="btn btn--primary btn--lg">Nachricht absenden</button>
+          </form>
+
+          <!-- Kontaktinformationen -->
+          <div class="contact-info">
+
+            <div class="contact-info-card">
+              <svg class="contact-info-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+              <div>
+                <h3 class="contact-info-card__title">Adresse</h3>
+                <!-- ADRESSE HIER ANPASSEN -->
+                <address class="contact-info-card__text">
+                  Zimmerei Muster GmbH<br>
+                  Handwerkerstraße 12<br>
+                  80000 Musterstadt
+                </address>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <svg class="contact-info-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+              </svg>
+              <div>
+                <h3 class="contact-info-card__title">Telefon &amp; E-Mail</h3>
+                <!-- TELEFON & E-MAIL HIER ANPASSEN -->
+                <p class="contact-info-card__text">
+                  <a href="tel:+4989123456780">089 12 34 56 – 0</a><br>
+                  <a href="mailto:info@zimmerei-muster.de">info@zimmerei-muster.de</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <svg class="contact-info-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
+              <div>
+                <h3 class="contact-info-card__title">Öffnungszeiten</h3>
+                <!-- ÖFFNUNGSZEITEN HIER ANPASSEN -->
+                <dl class="hours-list">
+                  <dt>Mo – Fr</dt><dd>07:00 – 17:00 Uhr</dd>
+                  <dt>Samstag</dt><dd>08:00 – 12:00 Uhr (nach Vereinbarung)</dd>
+                  <dt>Sonntag</dt><dd>Geschlossen</dd>
+                </dl>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       Alle Inhalte in den Spalten anpassen.
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+
+      <!-- Spalte 1: Marke & Kurzbeschreibung -->
+      <div>
+        <div class="footer-brand__logo">
+          <svg width="40" height="40" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="44" height="44" rx="8" fill="#5C3D2E"/>
+            <!-- INITIALEN HIER ANPASSEN -->
+            <text x="22" y="29" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F3EAD8">ZM</text>
+          </svg>
+          <!-- FIRMENNAME HIER ANPASSEN -->
+          <span class="footer-brand__name">Zimmerei Muster</span>
+        </div>
+        <!-- FIRMENBESCHREIBUNG HIER ANPASSEN -->
+        <p class="footer-brand__desc">
+          Familiengeführter Zimmerereibetrieb in Musterstadt. Wir bauen mit Herz,
+          Holz und handwerklichem Können seit 1985 – für Generationen.
+        </p>
+      </div>
+
+      <!-- Spalte 2: Navigation -->
+      <div>
+        <h3 class="footer-col__title">Navigation</h3>
+        <nav aria-label="Footer-Navigation">
+          <ul class="footer-nav__list">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="leistungen.html">Leistungen</a></li>
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li><a href="aktuelles.html">Aktuelles</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Spalte 3: Kontakt -->
+      <div>
+        <h3 class="footer-col__title">Kontakt</h3>
+        <address>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <!-- ADRESSE HIER ANPASSEN -->
+            <span>Handwerkerstraße 12<br>80000 Musterstadt</span>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+            </svg>
+            <!-- TELEFON HIER ANPASSEN -->
+            <a href="tel:+4989123456780">089 12 34 56 – 0</a>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <!-- E-MAIL HIER ANPASSEN -->
+            <a href="mailto:info@zimmerei-muster.de">info@zimmerei-muster.de</a>
+          </div>
+        </address>
+      </div>
+
+      <!-- Spalte 4: Öffnungszeiten -->
+      <div>
+        <h3 class="footer-col__title">Öffnungszeiten</h3>
+        <!-- ÖFFNUNGSZEITEN HIER ANPASSEN -->
+        <dl class="footer-hours">
+          <dt>Mo – Fr</dt><dd>07:00 – 17:00 Uhr</dd>
+          <dt>Samstag</dt><dd>08:00 – 12:00 Uhr</dd>
+          <dt>Sonntag</dt><dd>Geschlossen</dd>
+        </dl>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <!-- COPYRIGHT HIER ANPASSEN -->
+        <p>&copy; 2025 Zimmerei Muster GmbH. Alle Rechte vorbehalten.</p>
+        <div class="footer-bottom__links">
+          <!-- LINKS HIER ANPASSEN -->
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+          <a href="#">AGB</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

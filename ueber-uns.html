@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEITENTITEL HIER ANPASSEN -->
+  <title>Über uns – Zimmerei Muster GmbH</title>
+
+  <!-- META-BESCHREIBUNG HIER ANPASSEN -->
+  <meta name="description" content="Die Geschichte der Zimmerei Muster GmbH: Familiengeführt seit 1985, 200+ abgeschlossene Projekte, 12 engagierte Mitarbeiterinnen und Mitarbeiter." />
+
+  <!-- <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" /> -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+  <!-- ============================================================
+       HEADER & NAVIGATION (identisch auf allen Seiten)
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- FIRMENNAME & INITIALEN HIER ANPASSEN -->
+      <a href="index.html" class="logo" aria-label="Zimmerei Muster – Startseite">
+        <svg class="logo__icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="44" height="44" rx="8" fill="#5C3D2E"/>
+          <!-- INITIALEN HIER ANPASSEN -->
+          <text x="22" y="29" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F3EAD8">ZM</text>
+        </svg>
+        <span class="logo__text">
+          <!-- FIRMENNAME HIER ANPASSEN -->
+          <span class="logo__name">Zimmerei Muster</span>
+          <span class="logo__sub">GmbH &middot; seit 1985</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+        <ul class="main-nav__list" role="list">
+          <li class="main-nav__item"><a href="index.html">Startseite</a></li>
+          <li class="main-nav__item"><a href="leistungen.html">Leistungen</a></li>
+          <li class="main-nav__item"><a href="ueber-uns.html">Über uns</a></li>
+          <li class="main-nav__item"><a href="aktuelles.html">Aktuelles</a></li>
+        </ul>
+        <div class="main-nav__cta">
+          <a href="index.html#kontakt" class="btn btn--primary">Kontakt aufnehmen</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- =====================================================
+         PAGE-HERO
+         ===================================================== -->
+    <section class="hero hero--page" aria-label="Über uns">
+      <div class="hero__image" aria-hidden="true">
+        <!-- HERO-BILD HIER AUSTAUSCHEN (empfohlene Größe: 1600 × 700 px) -->
+        <img
+          src="https://picsum.photos/seed/ueber-uns-hero/1600/700"
+          alt="Das Team der Zimmerei Muster GmbH vor dem Betriebsgelände"
+          width="1600" height="700"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <span class="hero__tag">Wer wir sind</span>
+        <!-- SEITENTITEL HIER ANPASSEN -->
+        <h1 class="hero__title">Über uns</h1>
+        <p class="hero__lead">
+          Ein Betrieb mit Wurzeln – und dem Blick nach vorn. Lernen Sie das Team hinter
+          Zimmerei Muster kennen.
+        </p>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         FIRMENGESCHICHTE
+         Text links, Foto rechts – auf Desktop nebeneinander.
+         ===================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Linke Spalte: Text -->
+          <div>
+            <!-- TAG, TITEL UND TEXT HIER ANPASSEN -->
+            <span class="about-content__tag">Unsere Geschichte</span>
+            <h2 class="about-content__title">Handwerk, das von Generation zu Generation wächst</h2>
+            <p class="about-content__text">
+              Alles begann 1985 mit einer kleinen Werkstatt und einem großen Traum: Hans Muster
+              gründete die Zimmerei als Einmannbetrieb, mit dem Ziel, Holz so zu verarbeiten,
+              wie er es von seinem Lehrmeister gelernt hatte – mit Präzision, Respekt vor dem
+              Material und dem Anspruch, Dinge zu bauen, die Bestand haben.
+            </p>
+            <p class="about-content__text">
+              In den 1990er Jahren wuchs der Betrieb stetig. Neue Aufträge, neue Mitarbeiter,
+              neue Maschinen – und immer der gleiche Anspruch an Qualität. 2008 übernahm
+              Tochter Maria Muster die Geschäftsführung und modernisierte den Betrieb:
+              computergestützte Abbundtechnik hielt Einzug, das Team wurde auf zwölf
+              Fachkräfte ausgebaut.
+            </p>
+            <p class="about-content__text">
+              Heute ist die Zimmerei Muster GmbH einer der renommiertesten Holzbaubetriebe
+              der Region – mit über 200 abgeschlossenen Projekten, einer eigenen Lehrlingswerkstatt
+              und dem festen Glauben, dass gutes Handwerk niemals aus der Mode kommt.
+            </p>
+
+            <!-- KENNZAHLEN / HIGHLIGHTS als kleine Inline-Liste -->
+            <ul style="list-style:none;padding:0;margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:1rem;">
+              <li style="display:flex;align-items:center;gap:0.5rem;font-size:0.875rem;color:var(--color-text-muted);">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <!-- ANPASSEN: z. B. Zertifizierungen -->
+                Mitglied der Zimmererinnung Bayern
+              </li>
+              <li style="display:flex;align-items:center;gap:0.5rem;font-size:0.875rem;color:var(--color-text-muted);">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <!-- ANPASSEN -->
+                KfW-zertifizierter Energiefachbetrieb
+              </li>
+              <li style="display:flex;align-items:center;gap:0.5rem;font-size:0.875rem;color:var(--color-text-muted);">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                <!-- ANPASSEN -->
+                Ausbildungsbetrieb seit 1992
+              </li>
+            </ul>
+          </div>
+
+          <!-- Rechte Spalte: Teamfoto -->
+          <div class="about-image">
+            <!-- TEAMFOTO HIER AUSTAUSCHEN (empfohlene Größe: 800 × 600 px) -->
+            <img
+              src="https://picsum.photos/seed/team-gruppe/800/600"
+              alt="Das Team der Zimmerei Muster GmbH auf der Baustelle"
+              width="800" height="600"
+              loading="lazy"
+            />
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         KENNZAHLEN / STATS
+         Zahlen und Beschriftungen anpassen.
+         ===================================================== -->
+    <div class="stats-bar" aria-label="Unsere Kennzahlen">
+      <div class="container">
+        <div class="stats-grid">
+
+          <!-- KENNZAHL 1 HIER ANPASSEN -->
+          <div class="stat-item">
+            <div class="stat-item__number" aria-label="Seit 1985">seit 1985</div>
+            <!-- BEZEICHNUNG HIER ANPASSEN -->
+            <div class="stat-item__label">in Familienhand</div>
+          </div>
+
+          <!-- KENNZAHL 2 HIER ANPASSEN -->
+          <div class="stat-item">
+            <div class="stat-item__number" aria-label="Über 200 Projekte">200+</div>
+            <!-- BEZEICHNUNG HIER ANPASSEN -->
+            <div class="stat-item__label">abgeschlossene Projekte</div>
+          </div>
+
+          <!-- KENNZAHL 3 HIER ANPASSEN -->
+          <div class="stat-item">
+            <div class="stat-item__number" aria-label="12 Mitarbeiter">12</div>
+            <!-- BEZEICHNUNG HIER ANPASSEN -->
+            <div class="stat-item__label">engagierte Mitarbeiter</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- =====================================================
+         TEAM-SEKTION
+         Fotos, Namen und Rollen anpassen.
+         ===================================================== -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Die Menschen hinter dem Betrieb</span>
+          <!-- ÜBERSCHRIFT HIER ANPASSEN -->
+          <h2 class="section__title">Unser Team stellt sich vor</h2>
+          <p class="section__lead">
+            Erfahrene Handwerker, engagierte Auszubildende und eine Leitung, die
+            anpackt – das sind wir.
+          </p>
+        </div>
+
+        <div class="team-grid">
+
+          <!-- TEAMMITGLIED 1 HIER ANPASSEN -->
+          <div class="team-card">
+            <!-- TEAMFOTO HIER AUSTAUSCHEN (empfohlene Größe: 300 × 300 px) -->
+            <img
+              class="team-card__photo"
+              src="https://picsum.photos/seed/team-maria/300/300"
+              alt="Porträtfoto von Maria Muster, Geschäftsführerin"
+              width="300" height="300"
+              loading="lazy"
+            />
+            <!-- NAME HIER ANPASSEN -->
+            <h3 class="team-card__name">Maria Muster</h3>
+            <!-- ROLLE HIER ANPASSEN -->
+            <p class="team-card__role">Geschäftsführerin &amp; Zimmermeisterin</p>
+          </div>
+
+          <!-- TEAMMITGLIED 2 HIER ANPASSEN -->
+          <div class="team-card">
+            <!-- TEAMFOTO HIER AUSTAUSCHEN -->
+            <img
+              class="team-card__photo"
+              src="https://picsum.photos/seed/team-thomas/300/300"
+              alt="Porträtfoto von Thomas Bauer, Polier"
+              width="300" height="300"
+              loading="lazy"
+            />
+            <!-- NAME HIER ANPASSEN -->
+            <h3 class="team-card__name">Thomas Bauer</h3>
+            <!-- ROLLE HIER ANPASSEN -->
+            <p class="team-card__role">Polier &amp; Bauleitung</p>
+          </div>
+
+          <!-- TEAMMITGLIED 3 HIER ANPASSEN -->
+          <div class="team-card">
+            <!-- TEAMFOTO HIER AUSTAUSCHEN -->
+            <img
+              class="team-card__photo"
+              src="https://picsum.photos/seed/team-anna/300/300"
+              alt="Porträtfoto von Anna Schreier, Büro und Kalkulation"
+              width="300" height="300"
+              loading="lazy"
+            />
+            <!-- NAME HIER ANPASSEN -->
+            <h3 class="team-card__name">Anna Schreier</h3>
+            <!-- ROLLE HIER ANPASSEN -->
+            <p class="team-card__role">Büro &amp; Kalkulation</p>
+          </div>
+
+        </div>
+
+        <!-- Hinweis auf weitere Mitarbeiter -->
+        <!-- TEXT HIER ANPASSEN oder entfernen -->
+        <p class="text-center text-muted" style="margin-top:3rem;font-size:0.9rem;">
+          … und neun weitere engagierte Fachkräfte, die täglich ihr Bestes geben.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- =====================================================
+         WERTE / PHILOSOPHIE
+         Texte anpassen.
+         ===================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Was uns antreibt</span>
+          <!-- ÜBERSCHRIFT HIER ANPASSEN -->
+          <h2 class="section__title">Unsere Werte im Alltag</h2>
+        </div>
+
+        <div class="grid-3">
+
+          <!-- WERT 1 HIER ANPASSEN -->
+          <div class="feature-card">
+            <svg class="feature-card__icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M24 6L6 18v24h36V18L24 6z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+              <path d="M16 42V30h16v12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+            <div>
+              <h3 class="feature-card__title">Familientradition</h3>
+              <p class="feature-card__text">
+                Wir sind ein Familienbetrieb – das bedeutet kurze Wege, persönliche
+                Absprachen und eine Verbindlichkeit, die bei Großbetrieben selten ist.
+              </p>
+            </div>
+          </div>
+
+          <!-- WERT 2 HIER ANPASSEN -->
+          <div class="feature-card">
+            <svg class="feature-card__icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M8 40c4-16 12-24 32-28C36 36 28 42 8 40z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" fill="currentColor" fill-opacity="0.12"/>
+              <path d="M8 40c6-8 14-13 24-18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+            <div>
+              <h3 class="feature-card__title">Nachhaltigkeit</h3>
+              <p class="feature-card__text">
+                Holz ist das nachhaltigste Baumaterial der Welt – wenn es verantwortungsvoll
+                eingesetzt wird. Das nehmen wir ernst: von der Holzwahl bis zur Entsorgung.
+              </p>
+            </div>
+          </div>
+
+          <!-- WERT 3 HIER ANPASSEN -->
+          <div class="feature-card">
+            <svg class="feature-card__icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 36l6-8 8 6 10-16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2.2"/>
+            </svg>
+            <div>
+              <h3 class="feature-card__title">Kontinuierliche Weiterbildung</h3>
+              <p class="feature-card__text">
+                Handwerk entwickelt sich weiter – wir auch. Regelmäßige Schulungen in
+                moderner Holzbautechnik, Brandschutz und Energieeffizienz sichern unsere
+                Kompetenz.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         CTA-BANNER
+         ===================================================== -->
+    <section class="cta-banner">
+      <div class="container">
+        <!-- CTA-TEXT HIER ANPASSEN -->
+        <h2 class="cta-banner__title">Lernen Sie uns persönlich kennen</h2>
+        <p class="cta-banner__text">
+          Nichts geht über ein persönliches Gespräch. Besuchen Sie uns in der Werkstatt
+          oder vereinbaren Sie einen Termin vor Ort.
+        </p>
+        <div class="cta-banner__actions">
+          <a href="index.html#kontakt" class="btn btn--outline-white btn--lg">Termin vereinbaren</a>
+          <a href="leistungen.html" class="btn btn--outline-white btn--lg">Unsere Leistungen</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER (identisch auf allen Seiten)
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+
+      <div>
+        <div class="footer-brand__logo">
+          <svg width="40" height="40" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="44" height="44" rx="8" fill="#5C3D2E"/>
+            <!-- INITIALEN HIER ANPASSEN -->
+            <text x="22" y="29" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F3EAD8">ZM</text>
+          </svg>
+          <!-- FIRMENNAME HIER ANPASSEN -->
+          <span class="footer-brand__name">Zimmerei Muster</span>
+        </div>
+        <p class="footer-brand__desc">
+          Familiengeführter Zimmerereibetrieb in Musterstadt. Wir bauen mit Herz,
+          Holz und handwerklichem Können seit 1985 – für Generationen.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Navigation</h3>
+        <nav aria-label="Footer-Navigation">
+          <ul class="footer-nav__list">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="leistungen.html">Leistungen</a></li>
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li><a href="aktuelles.html">Aktuelles</a></li>
+            <li><a href="index.html#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Kontakt</h3>
+        <address>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <!-- ADRESSE HIER ANPASSEN -->
+            <span>Handwerkerstraße 12<br>80000 Musterstadt</span>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+            </svg>
+            <!-- TELEFON HIER ANPASSEN -->
+            <a href="tel:+4989123456780">089 12 34 56 – 0</a>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <!-- E-MAIL HIER ANPASSEN -->
+            <a href="mailto:info@zimmerei-muster.de">info@zimmerei-muster.de</a>
+          </div>
+        </address>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Öffnungszeiten</h3>
+        <!-- ÖFFNUNGSZEITEN HIER ANPASSEN -->
+        <dl class="footer-hours">
+          <dt>Mo – Fr</dt><dd>07:00 – 17:00 Uhr</dd>
+          <dt>Samstag</dt><dd>08:00 – 12:00 Uhr</dd>
+          <dt>Sonntag</dt><dd>Geschlossen</dd>
+        </dl>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <!-- COPYRIGHT HIER ANPASSEN -->
+        <p>&copy; 2025 Zimmerei Muster GmbH. Alle Rechte vorbehalten.</p>
+        <div class="footer-bottom__links">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+          <a href="#">AGB</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

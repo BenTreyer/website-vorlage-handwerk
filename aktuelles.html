@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEITENTITEL HIER ANPASSEN -->
+  <title>Aktuelles – Zimmerei Muster GmbH</title>
+
+  <!-- META-BESCHREIBUNG HIER ANPASSEN -->
+  <meta name="description" content="Neuigkeiten und Projekte der Zimmerei Muster GmbH: Einblicke in unsere Arbeit, abgeschlossene Bauvorhaben und Wissenswertes rund ums Thema Holzbau." />
+
+  <!-- <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" /> -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+  <!-- ============================================================
+       HEADER & NAVIGATION (identisch auf allen Seiten)
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- FIRMENNAME & INITIALEN HIER ANPASSEN -->
+      <a href="index.html" class="logo" aria-label="Zimmerei Muster – Startseite">
+        <svg class="logo__icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="44" height="44" rx="8" fill="#5C3D2E"/>
+          <!-- INITIALEN HIER ANPASSEN -->
+          <text x="22" y="29" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F3EAD8">ZM</text>
+        </svg>
+        <span class="logo__text">
+          <!-- FIRMENNAME HIER ANPASSEN -->
+          <span class="logo__name">Zimmerei Muster</span>
+          <span class="logo__sub">GmbH &middot; seit 1985</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+        <ul class="main-nav__list" role="list">
+          <li class="main-nav__item"><a href="index.html">Startseite</a></li>
+          <li class="main-nav__item"><a href="leistungen.html">Leistungen</a></li>
+          <li class="main-nav__item"><a href="ueber-uns.html">Über uns</a></li>
+          <li class="main-nav__item"><a href="aktuelles.html">Aktuelles</a></li>
+        </ul>
+        <div class="main-nav__cta">
+          <a href="index.html#kontakt" class="btn btn--primary">Kontakt aufnehmen</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- =====================================================
+         PAGE-HERO
+         ===================================================== -->
+    <section class="hero hero--page" aria-label="Aktuelles">
+      <div class="hero__image" aria-hidden="true">
+        <!-- HERO-BILD HIER AUSTAUSCHEN (empfohlene Größe: 1600 × 700 px) -->
+        <img
+          src="https://picsum.photos/seed/aktuelles-hero/1600/700"
+          alt="Zimmererarbeiten – Detailaufnahme einer Holzverbindung"
+          width="1600" height="700"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <span class="hero__tag">Neuigkeiten &amp; Projekte</span>
+        <!-- SEITENTITEL HIER ANPASSEN -->
+        <h1 class="hero__title">Aktuelles aus dem Betrieb</h1>
+        <p class="hero__lead">
+          Einblicke in unsere Arbeit, abgeschlossene Projekte und
+          Wissenswertes rund ums Thema Holzbau – direkt aus der Werkstatt.
+        </p>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         3 NEWS-KARTEN
+         Für jede Karte: Bild, Datum, Kategorie, Titel, Text
+         ===================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Neuigkeiten</span>
+          <!-- ÜBERSCHRIFT HIER ANPASSEN -->
+          <h2 class="section__title">Was bei uns los ist</h2>
+          <p class="section__lead">
+            Hier teilen wir aktuelle Projekte, Einblicke in den Berufsalltag
+            und nützliche Tipps rund um Holzbau und Renovierung.
+          </p>
+        </div>
+
+        <div class="news-grid">
+
+          <!-- ==========================================
+               NEWS-BEITRAG 1 HIER ANPASSEN
+               ========================================== -->
+          <article class="news-card">
+            <div class="news-card__image-wrap">
+              <!-- NEWS-BILD 1 HIER AUSTAUSCHEN (empfohlen: 800 × 500 px) -->
+              <img
+                class="news-card__image"
+                src="https://picsum.photos/seed/news-dachstuhl2024/800/500"
+                alt="Fertiggestellter Dachstuhl eines Einfamilienhauses in Musterstadt"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <!-- DATUM HIER ANPASSEN (ISO-Format im datetime-Attribut) -->
+                <time class="news-card__date" datetime="2025-04-15">15. April 2025</time>
+                <!-- KATEGORIE HIER ANPASSEN -->
+                <span class="news-card__cat">Projekt</span>
+              </div>
+              <!-- TITEL HIER ANPASSEN -->
+              <h2 class="news-card__title">
+                <a href="#">Neuer Dachstuhl für Einfamilienhaus in Musterstadt</a>
+              </h2>
+              <!-- TEXT HIER ANPASSEN -->
+              <p class="news-card__text">
+                Nach drei Wochen intensiver Arbeit haben wir den neuen Dachstuhl für Familie
+                Huber in Musterstadt erfolgreich montiert. Das Satteldach mit zwei Gauben und
+                integrierter Kehlbalkendecke bietet künftig Platz für ein großzügiges Kinderzimmer
+                im Dachgeschoss – und das bei bestem Wärmeschutz nach KfW-40-Standard.
+              </p>
+              <!-- LINK HIER ANPASSEN (eigene Beitragsseite oder # als Platzhalter) -->
+              <a href="#" class="news-card__link">
+                Mehr lesen
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- ==========================================
+               NEWS-BEITRAG 2 HIER ANPASSEN
+               ========================================== -->
+          <article class="news-card">
+            <div class="news-card__image-wrap">
+              <!-- NEWS-BILD 2 HIER AUSTAUSCHEN -->
+              <img
+                class="news-card__image"
+                src="https://picsum.photos/seed/news-ausbildung2025/800/500"
+                alt="Auszubildende bei der Zimmerei Muster lernen Holzverbindungen"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <!-- DATUM HIER ANPASSEN -->
+                <time class="news-card__date" datetime="2025-03-03">3. März 2025</time>
+                <!-- KATEGORIE HIER ANPASSEN -->
+                <span class="news-card__cat">Ausbildung</span>
+              </div>
+              <!-- TITEL HIER ANPASSEN -->
+              <h2 class="news-card__title">
+                <a href="#">Zwei neue Azubis starten bei Zimmerei Muster</a>
+              </h2>
+              <!-- TEXT HIER ANPASSEN -->
+              <p class="news-card__text">
+                Wir begrüßen Jonas Richter und Lea Hofmann als neue Auszubildende in unserem Betrieb.
+                Beide haben sich aus über 30 Bewerbungen für die begehrten Ausbildungsplätze
+                qualifiziert. In den nächsten drei Jahren werden sie das Handwerk von der Pieke
+                auf lernen – von der Zimmermannsverbindung bis zur modernen Abbundtechnik.
+              </p>
+              <!-- LINK HIER ANPASSEN -->
+              <a href="#" class="news-card__link">
+                Mehr lesen
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- ==========================================
+               NEWS-BEITRAG 3 HIER ANPASSEN
+               ========================================== -->
+          <article class="news-card">
+            <div class="news-card__image-wrap">
+              <!-- NEWS-BILD 3 HIER AUSTAUSCHEN -->
+              <img
+                class="news-card__image"
+                src="https://picsum.photos/seed/news-scheune2025/800/500"
+                alt="Restaurierte Fachwerkscheune – Vorher-Nachher-Vergleich"
+                width="800" height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <!-- DATUM HIER ANPASSEN -->
+                <time class="news-card__date" datetime="2025-01-20">20. Januar 2025</time>
+                <!-- KATEGORIE HIER ANPASSEN -->
+                <span class="news-card__cat">Restaurierung</span>
+              </div>
+              <!-- TITEL HIER ANPASSEN -->
+              <h2 class="news-card__title">
+                <a href="#">Denkmalgerechte Restaurierung: Fachwerkscheune Gut Bergfeld</a>
+              </h2>
+              <!-- TEXT HIER ANPASSEN -->
+              <p class="news-card__text">
+                Über fünf Monate haben wir die historische Fachwerkscheune des Gut Bergfeld
+                behutsam restauriert. Morsche Balken wurden durch baugleiches Eichenholz
+                ersetzt, Gefache neu ausgefacht und sämtliche Verbindungen nach originalen
+                Zimmermannstechniken des 19. Jahrhunderts wieder hergestellt. Das Ergebnis
+                kann sich sehen lassen – und hält weitere 100 Jahre.
+              </p>
+              <!-- LINK HIER ANPASSEN -->
+              <a href="#" class="news-card__link">
+                Mehr lesen
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14M13 6l6 6-6 6"/>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- =====================================================
+             WEITERE BEITRÄGE HIER ERGÄNZEN:
+             Einfach weitere <article class="news-card">...</article>
+             nach dem gleichen Schema einfügen und das news-grid
+             wird sie automatisch korrekt umbrechen.
+             ===================================================== -->
+
+      </div>
+    </section>
+
+    <!-- =====================================================
+         NEWSLETTER / KUNDENBINDUNG (optional)
+         Diesen Abschnitt entfernen oder ersetzen.
+         ===================================================== -->
+    <section class="section section--alt">
+      <div class="container" style="max-width: 620px;">
+        <div class="section__header">
+          <span class="section__tag">Immer auf dem Laufenden</span>
+          <!-- ÜBERSCHRIFT HIER ANPASSEN -->
+          <h2 class="section__title">Kein Projekt verpassen</h2>
+          <p class="section__lead">
+            Folgen Sie uns auf Social Media oder schreiben Sie uns – wir informieren Sie
+            gerne persönlich über neue Projekte und Termine.
+          </p>
+        </div>
+
+        <!-- SOCIAL-MEDIA-LINKS HIER ANPASSEN -->
+        <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
+          <!-- Facebook -->
+          <a href="#" class="btn btn--outline" aria-label="Zimmerei Muster auf Facebook">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+            </svg>
+            Facebook
+          </a>
+          <!-- Instagram -->
+          <a href="#" class="btn btn--outline" aria-label="Zimmerei Muster auf Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+            </svg>
+            Instagram
+          </a>
+          <!-- YouTube -->
+          <a href="#" class="btn btn--outline" aria-label="Zimmerei Muster auf YouTube">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.54C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z"/>
+            </svg>
+            YouTube
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =====================================================
+         CTA-BANNER
+         ===================================================== -->
+    <section class="cta-banner">
+      <div class="container">
+        <!-- CTA-TEXT HIER ANPASSEN -->
+        <h2 class="cta-banner__title">Soll Ihr Projekt auch hier auftauchen?</h2>
+        <p class="cta-banner__text">
+          Kontaktieren Sie uns – wir verwirklichen Ihr Holzbauprojekt und
+          begleiten Sie vom ersten Gespräch bis zur Fertigstellung.
+        </p>
+        <div class="cta-banner__actions">
+          <a href="index.html#kontakt" class="btn btn--outline-white btn--lg">Anfrage stellen</a>
+          <a href="leistungen.html" class="btn btn--outline-white btn--lg">Leistungen ansehen</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER (identisch auf allen Seiten)
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+
+      <div>
+        <div class="footer-brand__logo">
+          <svg width="40" height="40" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="44" height="44" rx="8" fill="#5C3D2E"/>
+            <!-- INITIALEN HIER ANPASSEN -->
+            <text x="22" y="29" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F3EAD8">ZM</text>
+          </svg>
+          <!-- FIRMENNAME HIER ANPASSEN -->
+          <span class="footer-brand__name">Zimmerei Muster</span>
+        </div>
+        <p class="footer-brand__desc">
+          Familiengeführter Zimmerereibetrieb in Musterstadt. Wir bauen mit Herz,
+          Holz und handwerklichem Können seit 1985 – für Generationen.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Navigation</h3>
+        <nav aria-label="Footer-Navigation">
+          <ul class="footer-nav__list">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="leistungen.html">Leistungen</a></li>
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li><a href="aktuelles.html">Aktuelles</a></li>
+            <li><a href="index.html#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Kontakt</h3>
+        <address>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <!-- ADRESSE HIER ANPASSEN -->
+            <span>Handwerkerstraße 12<br>80000 Musterstadt</span>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+            </svg>
+            <!-- TELEFON HIER ANPASSEN -->
+            <a href="tel:+4989123456780">089 12 34 56 – 0</a>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <!-- E-MAIL HIER ANPASSEN -->
+            <a href="mailto:info@zimmerei-muster.de">info@zimmerei-muster.de</a>
+          </div>
+        </address>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Öffnungszeiten</h3>
+        <!-- ÖFFNUNGSZEITEN HIER ANPASSEN -->
+        <dl class="footer-hours">
+          <dt>Mo – Fr</dt><dd>07:00 – 17:00 Uhr</dd>
+          <dt>Samstag</dt><dd>08:00 – 12:00 Uhr</dd>
+          <dt>Sonntag</dt><dd>Geschlossen</dd>
+        </dl>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <!-- COPYRIGHT HIER ANPASSEN -->
+        <p>&copy; 2025 Zimmerei Muster GmbH. Alle Rechte vorbehalten.</p>
+        <div class="footer-bottom__links">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+          <a href="#">AGB</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

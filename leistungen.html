@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEITENTITEL HIER ANPASSEN -->
+  <title>Leistungen – Zimmerei Muster GmbH</title>
+
+  <!-- META-BESCHREIBUNG HIER ANPASSEN -->
+  <meta name="description" content="Leistungen der Zimmerei Muster GmbH: Dachstuhlbau, Holzrahmenbau, Innenausbau und Restaurierung – professionell, regional, nachhaltig." />
+
+  <!-- <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" /> -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+  <!-- ============================================================
+       HEADER & NAVIGATION (identisch auf allen Seiten)
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- FIRMENNAME & INITIALEN HIER ANPASSEN -->
+      <a href="index.html" class="logo" aria-label="Zimmerei Muster – Startseite">
+        <svg class="logo__icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="44" height="44" rx="8" fill="#5C3D2E"/>
+          <!-- INITIALEN HIER ANPASSEN -->
+          <text x="22" y="29" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F3EAD8">ZM</text>
+        </svg>
+        <span class="logo__text">
+          <!-- FIRMENNAME HIER ANPASSEN -->
+          <span class="logo__name">Zimmerei Muster</span>
+          <span class="logo__sub">GmbH &middot; seit 1985</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+        <ul class="main-nav__list" role="list">
+          <li class="main-nav__item"><a href="index.html">Startseite</a></li>
+          <li class="main-nav__item"><a href="leistungen.html">Leistungen</a></li>
+          <li class="main-nav__item"><a href="ueber-uns.html">Über uns</a></li>
+          <li class="main-nav__item"><a href="aktuelles.html">Aktuelles</a></li>
+        </ul>
+        <div class="main-nav__cta">
+          <a href="index.html#kontakt" class="btn btn--primary">Kontakt aufnehmen</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- =====================================================
+         PAGE-HERO (kleiner als Homepage-Hero)
+         ===================================================== -->
+    <section class="hero hero--page" aria-label="Leistungen">
+      <div class="hero__image" aria-hidden="true">
+        <!-- HERO-BILD HIER AUSTAUSCHEN (empfohlene Größe: 1600 × 700 px) -->
+        <img
+          src="https://picsum.photos/seed/leistungen-hero/1600/700"
+          alt="Zimmerer bei der Arbeit – Holzbalken werden präzise gefügt"
+          width="1600" height="700"
+          loading="eager"
+          fetchpriority="high"
+        />
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <span class="hero__tag">Was wir für Sie leisten</span>
+        <!-- SEITENTITEL HIER ANPASSEN -->
+        <h1 class="hero__title">Unsere Leistungen</h1>
+        <p class="hero__lead">
+          Von der Planung bis zur Übergabe – wir übernehmen Ihr Holzbauprojekt
+          vollständig, zuverlässig und mit dem nötigen Gespür fürs Handwerk.
+        </p>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         4 LEISTUNGS-DETAIL-KARTEN
+         Für jede Karte: Bild, Icon, Titel, Text, Button
+         ===================================================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Unser Leistungsspektrum</span>
+          <!-- ÜBERSCHRIFT HIER ANPASSEN -->
+          <h2 class="section__title">Vier starke Säulen unseres Betriebs</h2>
+          <p class="section__lead">
+            Ob Neubau, Sanierung oder Restaurierung – wir haben die Expertise und
+            das Werkzeug für Ihr Vorhaben.
+          </p>
+        </div>
+
+        <!-- Leistungskarten: 2-spaltig ab Tablet, 4-spaltig ab Desktop (hier als 2er-Grid) -->
+        <div class="grid-2" style="gap: 2.5rem;">
+
+          <!-- ==========================================
+               LEISTUNG 1: DACHSTUHLBAU
+               Texte und Bild anpassen.
+               ========================================== -->
+          <div class="service-detail-card" id="dachstuhlbau">
+            <div class="service-detail-card__image-wrap">
+              <!-- LEISTUNGSBILD 1 HIER AUSTAUSCHEN (empfohlen: 800 × 500 px) -->
+              <img
+                class="service-detail-card__image"
+                src="https://picsum.photos/seed/dachstuhl-detail/800/500"
+                alt="Dachstuhl aus Massivholz im Rohbau"
+                width="800" height="500"
+                loading="lazy"
+              />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG-Icon: Dachstuhl / Dach -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3 15L18 4l15 11" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+                  <rect x="7" y="15" width="22" height="17" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                  <path d="M18 4v28M3 15h30" stroke="currentColor" stroke-width="1.4" stroke-dasharray="2.5 2.5"/>
+                  <path d="M18 8l-9 7M18 8l9 7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <!-- KATEGORIE-TAG HIER ANPASSEN -->
+              <span class="service-detail-card__tag">Dachstuhlbau</span>
+              <!-- LEISTUNGSTITEL HIER ANPASSEN -->
+              <h2 class="service-detail-card__title">Dachstühle – solide Basis für jedes Dach</h2>
+              <!-- LEISTUNGSTEXT HIER ANPASSEN -->
+              <p class="service-detail-card__text">
+                Der Dachstuhl ist das tragende Skelett jedes Hauses – wir planen und fertigen ihn
+                millimetergenau vor. Unsere Zimmerer setzen auf computergestützte
+                Abbundtechnik kombiniert mit klassischem Handwerk: Das garantiert passgenaue
+                Verbindungen, die Jahrzehnte halten.
+              </p>
+              <p class="service-detail-card__text">
+                Ob steiles Satteldach, modernes Flachdach-Aufsatzdach oder eine individuelle
+                Gaube – wir realisieren jede Dachform. Auch die Erneuerung alter Dachstühle,
+                inklusive Wärmedämmung und Einbau von Dachfenstern, gehört zu unserem
+                täglichen Handwerk.
+              </p>
+              <!-- BUTTON-LINK HIER ANPASSEN -->
+              <a href="index.html#kontakt" class="btn btn--primary">Jetzt anfragen</a>
+            </div>
+          </div>
+
+          <!-- ==========================================
+               LEISTUNG 2: HOLZRAHMENBAU
+               ========================================== -->
+          <div class="service-detail-card" id="holzrahmenbau">
+            <div class="service-detail-card__image-wrap">
+              <!-- LEISTUNGSBILD 2 HIER AUSTAUSCHEN -->
+              <img
+                class="service-detail-card__image"
+                src="https://picsum.photos/seed/holzrahmen-detail/800/500"
+                alt="Holzrahmenhaus im Bau – Wandelemente werden aufgestellt"
+                width="800" height="500"
+                loading="lazy"
+              />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG-Icon: Haus / Holzrahmenbau -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4 14l14-9 14 9v18H4V14z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+                  <rect x="13" y="22" width="10" height="10" stroke="currentColor" stroke-width="1.8"/>
+                  <path d="M4 14h28M13 14v18M23 14v18M4 22h28" stroke="currentColor" stroke-width="1.4" stroke-dasharray="2.5 2.5"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <span class="service-detail-card__tag">Holzrahmenbau</span>
+              <!-- LEISTUNGSTITEL HIER ANPASSEN -->
+              <h2 class="service-detail-card__title">Holzrahmenbau – schnell, effizient, nachhaltig</h2>
+              <!-- LEISTUNGSTEXT HIER ANPASSEN -->
+              <p class="service-detail-card__text">
+                Der Holzrahmenbau ist eine der wirtschaftlichsten und ökologischsten Bauweisen
+                unserer Zeit. Wandelemente werden in der Werkstatt vorgefertigt und auf der
+                Baustelle innerhalb weniger Tage aufgestellt. Das spart Zeit, schützt den Rohbau
+                vor Witterung und reduziert Kosten.
+              </p>
+              <p class="service-detail-card__text">
+                Mit unserem Holzrahmenbau erreichen Sie problemlos KfW-40- und Passivhaus-Standards.
+                Wir beraten Sie bereits in der Planungsphase zu Wandaufbauten, Dampfsperren
+                und Dämmkonzepten – für maximale Energieeffizienz im Betrieb.
+              </p>
+              <a href="index.html#kontakt" class="btn btn--primary">Jetzt anfragen</a>
+            </div>
+          </div>
+
+          <!-- ==========================================
+               LEISTUNG 3: INNENAUSBAU
+               ========================================== -->
+          <div class="service-detail-card" id="innenausbau">
+            <div class="service-detail-card__image-wrap">
+              <!-- LEISTUNGSBILD 3 HIER AUSTAUSCHEN -->
+              <img
+                class="service-detail-card__image"
+                src="https://picsum.photos/seed/innenausbau-detail/800/500"
+                alt="Maßgeschreinerte Holztreppe im Innenbereich"
+                width="800" height="500"
+                loading="lazy"
+              />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG-Icon: Treppe / Innenausbau -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 30h6V24h6v-6h6v-6h6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="6" y1="6" x2="6" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="6" y1="30" x2="30" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <span class="service-detail-card__tag">Innenausbau</span>
+              <!-- LEISTUNGSTITEL HIER ANPASSEN -->
+              <h2 class="service-detail-card__title">Innenausbau – Holz, das Räume lebendig macht</h2>
+              <!-- LEISTUNGSTEXT HIER ANPASSEN -->
+              <p class="service-detail-card__text">
+                Massivholztreppen, Türzargen, Fensterbänke, Wandvertäfelungen und Dachausbauten –
+                wir bringen Holz dorthin, wo Sie es jeden Tag erleben. Natürliche Oberflächen
+                schaffen Wohnbehagen und verbessern das Raumklima spürbar.
+              </p>
+              <p class="service-detail-card__text">
+                Jedes Element wird nach Maß gefertigt und von unseren Zimmerern vor Ort
+                eingebaut. Wir arbeiten eng mit Architekten und Inneneinrichtern zusammen,
+                um Ihre gestalterischen Ideen handwerklich umzusetzen.
+              </p>
+              <a href="index.html#kontakt" class="btn btn--primary">Jetzt anfragen</a>
+            </div>
+          </div>
+
+          <!-- ==========================================
+               LEISTUNG 4: RESTAURIERUNG
+               ========================================== -->
+          <div class="service-detail-card" id="restaurierung">
+            <div class="service-detail-card__image-wrap">
+              <!-- LEISTUNGSBILD 4 HIER AUSTAUSCHEN -->
+              <img
+                class="service-detail-card__image"
+                src="https://picsum.photos/seed/restaurierung-detail/800/500"
+                alt="Restaurierung eines historischen Fachwerks – Balken werden erneuert"
+                width="800" height="500"
+                loading="lazy"
+              />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG-Icon: Werkzeug / Restaurierung -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M28 6l-4 4-2.5-2.5 4-4A6.5 6.5 0 0016 12L5 23a2.5 2.5 0 003.5 3.5L19.5 16A6.5 6.5 0 0028 6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                  <circle cx="9.5" cy="25.5" r="2" fill="currentColor"/>
+                  <path d="M22 14l6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <span class="service-detail-card__tag">Restaurierung</span>
+              <!-- LEISTUNGSTITEL HIER ANPASSEN -->
+              <h2 class="service-detail-card__title">Restaurierung – Altbausubstanz schonend erhalten</h2>
+              <!-- LEISTUNGSTEXT HIER ANPASSEN -->
+              <p class="service-detail-card__text">
+                Historische Dachstühle, Fachwerkwände und alte Zimmermannverbindungen sind
+                oft besser als ihr Ruf. Mit denkmalpflegerischem Sachverstand und moderner
+                Analysetechnik unterscheiden wir, was erhalten werden kann – und was erneuert
+                werden muss.
+              </p>
+              <p class="service-detail-card__text">
+                Wir arbeiten mit traditionellen Zimmermannstechniken und verwenden bei
+                Bedarf ökologische Holzschutzmittel. So bleibt die Authentizität Ihrer
+                historischen Bausubstanz erhalten und das Gebäude gewinnt an Stabilität
+                für weitere Jahrzehnte.
+              </p>
+              <a href="index.html#kontakt" class="btn btn--primary">Jetzt anfragen</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         ABLAUF / PROZESS-SCHRITTE
+         Schritte anpassen.
+         ===================================================== -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">So arbeiten wir</span>
+          <!-- ÜBERSCHRIFT HIER ANPASSEN -->
+          <h2 class="section__title">Ihr Projekt in vier Schritten</h2>
+          <p class="section__lead">
+            Transparenz und klare Kommunikation sind uns wichtig – von der ersten
+            Idee bis zur Schlüsselübergabe.
+          </p>
+        </div>
+
+        <div class="process-steps" style="max-width: 760px; margin-inline: auto;">
+
+          <!-- SCHRITT 1 HIER ANPASSEN -->
+          <div class="process-step">
+            <div class="process-step__number" aria-hidden="true">1</div>
+            <div class="process-step__content">
+              <h3>Erstberatung &amp; Bedarfsanalyse</h3>
+              <p>
+                Wir besichtigen Ihr Objekt kostenlos und unverbindlich. Im persönlichen Gespräch
+                klären wir Ihren Bedarf, besprechen Möglichkeiten und legen die Rahmenbedingungen
+                gemeinsam fest.
+              </p>
+            </div>
+          </div>
+
+          <!-- SCHRITT 2 HIER ANPASSEN -->
+          <div class="process-step">
+            <div class="process-step__number" aria-hidden="true">2</div>
+            <div class="process-step__content">
+              <h3>Planung &amp; Angebot</h3>
+              <p>
+                Auf Basis der Aufnahme erstellen wir eine detaillierte Planung mit
+                Materialliste und Zeitplan. Das schriftliche Festpreisangebot erhalten Sie
+                innerhalb von fünf Werktagen.
+              </p>
+            </div>
+          </div>
+
+          <!-- SCHRITT 3 HIER ANPASSEN -->
+          <div class="process-step">
+            <div class="process-step__number" aria-hidden="true">3</div>
+            <div class="process-step__content">
+              <h3>Vorfertigung &amp; Montage</h3>
+              <p>
+                Bauteile werden in unserer Werkstatt computergestützt vorgefertigt und
+                pünktlich auf Ihrer Baustelle montiert. Dabei halten wir Sie wöchentlich
+                über den Fortschritt auf dem Laufenden.
+              </p>
+            </div>
+          </div>
+
+          <!-- SCHRITT 4 HIER ANPASSEN -->
+          <div class="process-step">
+            <div class="process-step__number" aria-hidden="true">4</div>
+            <div class="process-step__content">
+              <h3>Abnahme &amp; Gewährleistung</h3>
+              <p>
+                Nach der Fertigstellung gehen wir das Projekt gemeinsam mit Ihnen durch.
+                Offene Punkte werden sofort behoben. Sie erhalten vollständige Dokumentation
+                und profitieren von fünf Jahren Gewährleistung.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         CTA-BANNER
+         ===================================================== -->
+    <section class="cta-banner">
+      <div class="container">
+        <!-- CTA-TEXT HIER ANPASSEN -->
+        <h2 class="cta-banner__title">Bereit für Ihr Holzbauprojekt?</h2>
+        <p class="cta-banner__text">
+          Sprechen Sie uns an – wir beraten Sie ehrlich, planen realistisch
+          und setzen Ihr Vorhaben mit ganzer Sorgfalt um.
+        </p>
+        <div class="cta-banner__actions">
+          <a href="index.html#kontakt" class="btn btn--outline-white btn--lg">Kostenloses Erstgespräch</a>
+          <!-- TELEFONNUMMER HIER ANPASSEN -->
+          <a href="tel:+4989123456780" class="btn btn--outline-white btn--lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+            </svg>
+            089 12 34 56&thinsp;–&thinsp;0
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER (identisch auf allen Seiten)
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+
+      <div>
+        <div class="footer-brand__logo">
+          <svg width="40" height="40" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="44" height="44" rx="8" fill="#5C3D2E"/>
+            <!-- INITIALEN HIER ANPASSEN -->
+            <text x="22" y="29" text-anchor="middle" font-family="Georgia, serif" font-size="17" font-weight="700" fill="#F3EAD8">ZM</text>
+          </svg>
+          <!-- FIRMENNAME HIER ANPASSEN -->
+          <span class="footer-brand__name">Zimmerei Muster</span>
+        </div>
+        <!-- FIRMENBESCHREIBUNG HIER ANPASSEN -->
+        <p class="footer-brand__desc">
+          Familiengeführter Zimmerereibetrieb in Musterstadt. Wir bauen mit Herz,
+          Holz und handwerklichem Können seit 1985 – für Generationen.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Navigation</h3>
+        <nav aria-label="Footer-Navigation">
+          <ul class="footer-nav__list">
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="leistungen.html">Leistungen</a></li>
+            <li><a href="ueber-uns.html">Über uns</a></li>
+            <li><a href="aktuelles.html">Aktuelles</a></li>
+            <li><a href="index.html#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Kontakt</h3>
+        <address>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <!-- ADRESSE HIER ANPASSEN -->
+            <span>Handwerkerstraße 12<br>80000 Musterstadt</span>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+            </svg>
+            <!-- TELEFON HIER ANPASSEN -->
+            <a href="tel:+4989123456780">089 12 34 56 – 0</a>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <!-- E-MAIL HIER ANPASSEN -->
+            <a href="mailto:info@zimmerei-muster.de">info@zimmerei-muster.de</a>
+          </div>
+        </address>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Öffnungszeiten</h3>
+        <!-- ÖFFNUNGSZEITEN HIER ANPASSEN -->
+        <dl class="footer-hours">
+          <dt>Mo – Fr</dt><dd>07:00 – 17:00 Uhr</dd>
+          <dt>Samstag</dt><dd>08:00 – 12:00 Uhr</dd>
+          <dt>Sonntag</dt><dd>Geschlossen</dd>
+        </dl>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <!-- COPYRIGHT HIER ANPASSEN -->
+        <p>&copy; 2025 Zimmerei Muster GmbH. Alle Rechte vorbehalten.</p>
+        <div class="footer-bottom__links">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+          <a href="#">AGB</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
