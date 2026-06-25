@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kran-Service Magnus – Hebetechnik aus Oppenau</title>
+  <meta name="description" content="Kran-Service Magnus aus Oppenau – Kranverleih, Kranarbeiten, Wartung & Prüfung und Schulungen. Über 20 Jahre Erfahrung in der Hebetechnik. Jetzt anfragen." />
+
+  <!-- Google Fonts: Playfair Display + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="scroll-progress" role="progressbar" aria-hidden="true"></div>
+
+  <a href="#start" class="skip-link">Zum Inhalt springen</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="#start" class="logo" aria-label="Kran-Service Magnus – nach oben">
+        <svg class="logo__icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="44" height="44" rx="8" fill="#1E2D3D"/>
+          <text x="22" y="29" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#E8A800">KM</text>
+        </svg>
+        <span class="logo__text">
+          <span class="logo__name">Kran-Service Magnus</span>
+          <span class="logo__sub">Dieter Magnus &middot; Oppenau</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+        <ul class="main-nav__list" role="list">
+          <li class="main-nav__item"><a href="#leistungen">Leistungen</a></li>
+          <li class="main-nav__item"><a href="#referenzen">Referenzen</a></li>
+          <li class="main-nav__item"><a href="#ueber-uns">Über uns</a></li>
+          <li class="main-nav__item"><a href="#aktuelles">Aktuelles</a></li>
+        </ul>
+        <div class="main-nav__cta">
+          <a href="#kontakt" class="btn btn--primary">Kontakt aufnehmen</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="start">
+
+    <!-- 1. HERO -->
+    <section class="hero" aria-label="Willkommen">
+      <div class="hero__image" aria-hidden="true">
+        <img
+          src="https://picsum.photos/seed/kran-magnus-hero/1600/900"
+          alt="Mobilkran bei der Arbeit auf einer Baustelle im Schwarzwald"
+          width="1600" height="900"
+          loading="eager" fetchpriority="high"
+        />
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <span class="hero__tag">Hebetechnik aus Oppenau – seit über 20 Jahren</span>
+        <h1 class="hero__title">
+          Kran-Service Magnus –<br>
+          <span class="hero__typed" aria-live="polite"></span><span class="hero__typed-cursor" aria-hidden="true"></span>
+        </h1>
+        <p class="hero__lead">
+          Vom Kranverleih bis zur Kranprüfung – Dieter Magnus und sein Team heben,
+          versetzen und prüfen in der Region Schwarzwald mit dem nötigen Fachwissen,
+          modernen Geräten und höchsten Sicherheitsstandards.
+        </p>
+        <div class="hero__actions">
+          <a href="#leistungen" class="btn btn--primary btn--lg">Unsere Leistungen</a>
+          <a href="#kontakt" class="btn btn--outline-white btn--lg">Kostenlos anfragen</a>
+        </div>
+      </div>
+    </section>
+    <div class="wave-divider" style="background:#0F1923;" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C320,60 480,0 720,30 C960,60 1120,0 1440,30 L1440,60 L0,60 Z" fill="#F6F7F9"/></svg></div>
+
+    <!-- 2. LEISTUNGEN -->
+    <section class="section" id="leistungen">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Was wir für Sie leisten</span>
+          <h2 class="section__title">Unsere Leistungen</h2>
+          <p class="section__lead">
+            Von der Kranmiete bis zur Schulung – wir sind Ihr verlässlicher
+            Partner für alle Aufgaben rund um Kran und Hebetechnik.
+          </p>
+        </div>
+
+        <div class="grid-2" style="gap: 2rem; margin-bottom: 4rem;">
+
+          <!-- LEISTUNG 1: Kranverleih -->
+          <div class="service-detail-card" id="kranverleih">
+            <div class="service-detail-card__image-wrap">
+              <img class="service-detail-card__image"
+                src="https://picsum.photos/seed/kran-verleih/800/500"
+                alt="Mobilkran auf einer Baustelle bereit für den Einsatz"
+                width="800" height="500" loading="lazy" />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG: Kran -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <line x1="8" y1="32" x2="8" y2="6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+                  <line x1="8" y1="6" x2="30" y2="6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                  <line x1="30" y1="6" x2="30" y2="14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="2 2"/>
+                  <line x1="8" y1="10" x2="24" y2="10" stroke="currentColor" stroke-width="1.4"/>
+                  <rect x="4" y="30" width="8" height="4" rx="1" stroke="currentColor" stroke-width="1.6"/>
+                  <circle cx="30" cy="17" r="3" stroke="currentColor" stroke-width="1.8"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <span class="service-detail-card__bg-num" aria-hidden="true">01</span>
+              <span class="service-detail-card__tag">Kranverleih</span>
+              <h3 class="service-detail-card__title">Kranverleih – das richtige Gerät für jeden Auftrag</h3>
+              <p class="service-detail-card__text">
+                Wir vermieten Krane und Hebezeuge für Baustellen, Industrie und
+                Handwerksbetriebe in der Region. Kompetente Beratung bei der Geräteauswahl,
+                pünktliche Lieferung und volle Betriebssicherheit inklusive.
+              </p>
+              <a href="#kontakt" class="btn btn--cta">Jetzt anfragen</a>
+            </div>
+          </div>
+
+          <!-- LEISTUNG 2: Kranarbeiten -->
+          <div class="service-detail-card" id="kranarbeiten">
+            <div class="service-detail-card__image-wrap">
+              <img class="service-detail-card__image"
+                src="https://picsum.photos/seed/kran-arbeiten/800/500"
+                alt="Kran hebt schweren Stahlträger bei einer Industriemontage"
+                width="800" height="500" loading="lazy" />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG: Haken / Heben -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 4v14" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+                  <path d="M18 18 C18 26 28 26 28 20 C28 16 24 14 20 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/>
+                  <line x1="10" y1="4" x2="26" y2="4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <rect x="14" y="28" width="8" height="5" rx="2" stroke="currentColor" stroke-width="1.8"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <span class="service-detail-card__bg-num" aria-hidden="true">02</span>
+              <span class="service-detail-card__tag">Kranarbeiten</span>
+              <h3 class="service-detail-card__title">Kranarbeiten – Heben und Versetzen schwerer Lasten</h3>
+              <p class="service-detail-card__text">
+                Stahlträger, Fertigteile, Maschinen oder Baumaterial – wir heben
+                und versetzen mit eigenem Kranfahrzeug und erfahrenem Personal.
+                Präzise, sicher und termingerecht auf Ihrer Baustelle oder im Betrieb.
+              </p>
+              <a href="#kontakt" class="btn btn--cta">Jetzt anfragen</a>
+            </div>
+          </div>
+
+          <!-- LEISTUNG 3: Wartung & Prüfung -->
+          <div class="service-detail-card" id="wartung-pruefung">
+            <div class="service-detail-card__image-wrap">
+              <img class="service-detail-card__image"
+                src="https://picsum.photos/seed/kran-wartung/800/500"
+                alt="Techniker bei der UVV-Prüfung eines Industriekrans"
+                width="800" height="500" loading="lazy" />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG: Checkliste / Prüfung -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="6" y="4" width="24" height="28" rx="2" stroke="currentColor" stroke-width="2"/>
+                  <path d="M12 14l3 3 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="12" y1="22" x2="24" y2="22" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                  <line x1="12" y1="27" x2="20" y2="27" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <span class="service-detail-card__bg-num" aria-hidden="true">03</span>
+              <span class="service-detail-card__tag">Wartung &amp; Prüfung</span>
+              <h3 class="service-detail-card__title">Wartung &amp; UVV-Prüfung – Sicherheit an erster Stelle</h3>
+              <p class="service-detail-card__text">
+                Regelmäßige Wartung und Prüfung nach DGUV-Vorschrift (UVV) für Krane
+                und Hebezeuge aller Art. Wir prüfen fachgerecht, dokumentieren lückenlos
+                und stellen so die Betriebssicherheit Ihrer Geräte sicher.
+              </p>
+              <a href="#kontakt" class="btn btn--cta">Jetzt anfragen</a>
+            </div>
+          </div>
+
+          <!-- LEISTUNG 4: Schulungen -->
+          <div class="service-detail-card" id="schulungen">
+            <div class="service-detail-card__image-wrap">
+              <img class="service-detail-card__image"
+                src="https://picsum.photos/seed/kran-schulung/800/500"
+                alt="Kranführer-Schulung mit praktischen Übungen am Gerät"
+                width="800" height="500" loading="lazy" />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG: Klemmbrett / Schulung -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="8" y="6" width="20" height="26" rx="2" stroke="currentColor" stroke-width="2"/>
+                  <rect x="14" y="3" width="8" height="5" rx="1" stroke="currentColor" stroke-width="1.8"/>
+                  <line x1="12" y1="16" x2="24" y2="16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                  <line x1="12" y1="21" x2="24" y2="21" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                  <line x1="12" y1="26" x2="20" y2="26" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <span class="service-detail-card__bg-num" aria-hidden="true">04</span>
+              <span class="service-detail-card__tag">Schulungen</span>
+              <h3 class="service-detail-card__title">Schulungen – Kranführer-Unterweisung &amp; Zertifizierung</h3>
+              <p class="service-detail-card__text">
+                Unterweisungen für Kranführer, Anschläger und Bediener von Hebezeugen
+                nach DGUV Grundsatz 309-003. Theorie und Praxis, Zertifikat inklusive –
+                für Unternehmen, die auf rechtssichere Qualifikation ihrer Mitarbeiter setzen.
+              </p>
+              <a href="#kontakt" class="btn btn--cta">Jetzt anfragen</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <div class="wave-divider" style="background:#F6F7F9;" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C320,0 480,60 720,30 C960,0 1120,60 1440,30 L1440,60 L0,60 Z" fill="#EAEDF2"/></svg></div>
+
+    <!-- 3. REFERENZEN -->
+    <section class="section section--alt" id="referenzen">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Unsere Arbeit spricht für sich</span>
+          <h2 class="section__title">Ausgewählte Referenzeinsätze</h2>
+          <p class="section__lead">
+            Einblick in Einsätze und Projekte, die wir sicher und zuverlässig abgeschlossen haben.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/km-ref1/600/450"
+              alt="Mobilkran beim Heben von Stahlträgern auf einer Gewerbebaustelle"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Stahlmontage Gewerbepark Oppenau</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/km-ref2/600/450"
+              alt="Kran hebt Fertigteile bei einem Industriebau"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Fertigteilmontage Industriehalle</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/km-ref3/600/450"
+              alt="Baumontage mit Kran im Schwarzwald"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Hallenmontage Lautenbach</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/km-ref4/600/450"
+              alt="Kranverleih auf einer großen Baustelle"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Kranverleih Bauprojekt Offenburg</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/km-ref5/600/450"
+              alt="Techniker bei der UVV-Prüfung eines Brückenkrans"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">UVV-Prüfung Industriekran</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/km-ref6/600/450"
+              alt="Kranführer-Schulung mit praktischen Übungen"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Kranführer-Schulung – Zertifikat</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <div class="wave-divider" style="background:#EAEDF2;" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C320,60 480,0 720,30 C960,60 1120,0 1440,30 L1440,60 L0,60 Z" fill="#F6F7F9"/></svg></div>
+
+    <!-- 4. ÜBER UNS -->
+    <section class="section" id="ueber-uns">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Wer wir sind</span>
+          <h2 class="section__title">Über uns</h2>
+        </div>
+
+        <div class="about-grid">
+          <div>
+            <span class="about-content__tag">Unsere Geschichte</span>
+            <h3 class="about-content__title">Über 20 Jahre Erfahrung in der Hebetechnik</h3>
+            <p class="about-content__text">
+              Dieter Magnus gründete Kran-Service Magnus in Oppenau mit einem klaren Anspruch:
+              Kran- und Hebetechnik zuverlässig, sicher und mit echtem Fachwissen anzubieten –
+              für Handwerksbetriebe, Baustellen und Industriekunden in der Region Schwarzwald.
+            </p>
+            <p class="about-content__text">
+              Heute steht unser Team für moderne Geräte, lückenlose Dokumentation und
+              einen Service, der keine Kompromisse bei der Sicherheit macht. Ob Einzel-
+              einsatz oder langfristige Wartungsverträge – wir sind der verlässliche
+              Partner für Ihre Hebetechnik.
+            </p>
+            <ul style="list-style:none;padding:0;margin-top:1.25rem;display:flex;flex-direction:column;gap:0.5rem;">
+              <li style="display:flex;align-items:center;gap:0.5rem;font-size:0.875rem;color:var(--color-text-muted);">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                Geprüfte Sicherheit nach DGUV-Vorschrift
+              </li>
+              <li style="display:flex;align-items:center;gap:0.5rem;font-size:0.875rem;color:var(--color-text-muted);">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                Zertifizierte Kranführer-Schulungen
+              </li>
+              <li style="display:flex;align-items:center;gap:0.5rem;font-size:0.875rem;color:var(--color-text-muted);">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                Regionale Verlässlichkeit – schnell vor Ort
+              </li>
+            </ul>
+          </div>
+
+          <!-- TODO: Teamfoto einfügen (800 × 600 px) -->
+          <div class="about-image">
+            <img
+              src="https://picsum.photos/seed/km-team/800/600"
+              alt="Dieter Magnus und sein Team vor dem Kranfahrzeug"
+              width="800" height="600" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kennzahlen-Balken -->
+    <div class="stats-bar" aria-label="Unsere Kennzahlen">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-item__number" data-from="2000" data-target="2005" data-prefix="seit ">seit [TODO]</div>
+            <div class="stat-item__label">in der Branche</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__number" data-from="0" data-target="500" data-suffix="+">500+</div>
+            <div class="stat-item__label">Kraneinsätze</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__number" data-from="0" data-target="100" data-suffix="%">100%</div>
+            <div class="stat-item__label">geprüfte Sicherheit</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team -->
+    <section class="section section--alt" aria-label="Team">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Die Menschen hinter dem Betrieb</span>
+          <h3 class="section__title">Unser Team</h3>
+        </div>
+
+        <div class="team-grid">
+
+          <!-- TODO: Team-Namen und Fotos erfragen -->
+          <div class="team-card">
+            <img class="team-card__photo"
+              src="https://picsum.photos/seed/km-dieter/300/300"
+              alt="Porträtfoto von Dieter Magnus"
+              width="300" height="300" loading="lazy" />
+            <h4 class="team-card__name">Dieter Magnus</h4>
+            <p class="team-card__role">Inhaber &amp; Kranführer</p>
+          </div>
+
+          <div class="team-card">
+            <img class="team-card__photo"
+              src="https://picsum.photos/seed/km-team2/300/300"
+              alt="Porträtfoto Kranführer Kran-Service Magnus"
+              width="300" height="300" loading="lazy" />
+            <h4 class="team-card__name">[TODO: Name]</h4>
+            <p class="team-card__role">Kranführer &amp; Montage</p>
+          </div>
+
+          <div class="team-card">
+            <img class="team-card__photo"
+              src="https://picsum.photos/seed/km-team3/300/300"
+              alt="Porträtfoto Büro Kran-Service Magnus"
+              width="300" height="300" loading="lazy" />
+            <h4 class="team-card__name">[TODO: Name]</h4>
+            <p class="team-card__role">Büro &amp; Disposition</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <div class="wave-divider" style="background:#EAEDF2;" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C320,0 480,60 720,30 C960,0 1120,60 1440,30 L1440,60 L0,60 Z" fill="#F6F7F9"/></svg></div>
+
+    <!-- 5. AKTUELLES -->
+    <section class="section" id="aktuelles">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Neuigkeiten &amp; Einsätze</span>
+          <h2 class="section__title">Aktuelles aus dem Betrieb</h2>
+          <p class="section__lead">
+            Einblicke in abgeschlossene Einsätze, Schulungen und Neuigkeiten
+            rund um Kran und Hebetechnik aus Oppenau.
+          </p>
+        </div>
+
+        <div class="news-grid">
+
+          <article class="news-card">
+            <div class="news-card__image-wrap">
+              <img class="news-card__image"
+                src="https://picsum.photos/seed/km-news1/800/500"
+                alt="Kran beim Einsatz auf einer Gewerbebaustelle"
+                width="800" height="500" loading="lazy" />
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <time class="news-card__date" datetime="2026-06-10">10. Juni 2026</time>
+                <span class="news-card__cat">Einsatz</span>
+              </div>
+              <h3 class="news-card__title"><a href="#aktuelles">Stahlträger-Montage im Gewerbepark Oppenau abgeschlossen</a></h3>
+              <p class="news-card__text">
+                In nur zwei Tagen haben wir die Stahlkonstruktion für eine neue
+                Gewerbehalle in Oppenau präzise eingehoben. Über 40 Tonnen Material
+                wurden sicher versetzt – termingerecht und ohne Zwischenfälle.
+              </p>
+              <a href="#aktuelles" class="news-card__link">
+                Mehr lesen
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card__image-wrap">
+              <img class="news-card__image"
+                src="https://picsum.photos/seed/km-news2/800/500"
+                alt="Kranführer-Schulung mit Teilnehmern am Gerät"
+                width="800" height="500" loading="lazy" />
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <time class="news-card__date" datetime="2026-04-22">22. April 2026</time>
+                <span class="news-card__cat">Schulung</span>
+              </div>
+              <h3 class="news-card__title"><a href="#aktuelles">Kranführer-Unterweisung: 8 Teilnehmer erfolgreich zertifiziert</a></h3>
+              <p class="news-card__text">
+                Unsere jüngste Schulungsrunde nach DGUV Grundsatz 309-003 wurde
+                erfolgreich abgeschlossen. Alle 8 Teilnehmer aus der Region haben
+                die Prüfung bestanden und erhalten ihr Kranführer-Zertifikat.
+              </p>
+              <a href="#aktuelles" class="news-card__link">
+                Mehr lesen
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card__image-wrap">
+              <img class="news-card__image"
+                src="https://picsum.photos/seed/km-news3/800/500"
+                alt="Techniker prüft Brückenkran in einer Industriehalle"
+                width="800" height="500" loading="lazy" />
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <time class="news-card__date" datetime="2026-03-15">15. März 2026</time>
+                <span class="news-card__cat">Wartung</span>
+              </div>
+              <h3 class="news-card__title"><a href="#aktuelles">Jahresprüfung: UVV-Kontrolle für 12 Industriekrane durchgeführt</a></h3>
+              <p class="news-card__text">
+                Im Rahmen der jährlichen Betriebsprüfung haben wir bei einem Industriekunden
+                12 Krane und Hebezeuge fachgerecht nach UVV geprüft, dokumentiert und
+                freigegeben. Alle Geräte sind sicher und betriebsbereit.
+              </p>
+              <a href="#aktuelles" class="news-card__link">
+                Mehr lesen
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. KONTAKT -->
+    <!-- TODO: Formspree-Endpunkt in js/main.js eintragen -->
+    <section class="section contact-section" id="kontakt">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Nehmen Sie Kontakt auf</span>
+          <h2 class="section__title">Wir freuen uns auf Ihren Auftrag</h2>
+        </div>
+
+        <div class="contact-grid">
+
+          <form class="contact-form" id="kontaktformular" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="name">Ihr Name <span aria-hidden="true">*</span></label>
+              <input class="form-control" type="text" id="name" name="name" required autocomplete="name" placeholder="Max Mustermann" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">E-Mail-Adresse <span aria-hidden="true">*</span></label>
+              <input class="form-control" type="email" id="email" name="email" required autocomplete="email" placeholder="max@beispiel.de" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="telefon">Telefon <span style="font-weight:400;color:var(--color-text-muted);">(optional)</span></label>
+              <input class="form-control" type="tel" id="telefon" name="telefon" autocomplete="tel" placeholder="07804 / 91 200 90" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="betreff">Betreff</label>
+              <input class="form-control" type="text" id="betreff" name="betreff" placeholder="z. B. Kranverleih – Bauprojekt Oppenau" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="nachricht">Ihre Nachricht <span aria-hidden="true">*</span></label>
+              <textarea class="form-control" id="nachricht" name="nachricht" required placeholder="Beschreiben Sie kurz Ihr Vorhaben – Gerätetyp, Traglasten, Einsatzort …"></textarea>
+            </div>
+            <p style="font-size:0.78rem;color:var(--color-text-muted);margin-bottom:1rem;line-height:1.5;">
+              Mit dem Absenden stimmen Sie unserer
+              <a href="#" style="color:var(--color-secondary);text-decoration:underline;">Datenschutzerklärung</a> zu.
+            </p>
+            <button type="submit" class="btn btn--primary btn--lg">Nachricht absenden</button>
+          </form>
+
+          <div class="contact-info">
+
+            <div class="contact-info-card">
+              <svg class="contact-info-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+              <div>
+                <h3 class="contact-info-card__title">Adresse</h3>
+                <address class="contact-info-card__text">
+                  Kran-Service Magnus<br>
+                  Schwarzwaldstraße 3<br>
+                  77728 Oppenau
+                </address>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <svg class="contact-info-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+              </svg>
+              <div>
+                <h3 class="contact-info-card__title">Telefon &amp; E-Mail</h3>
+                <p class="contact-info-card__text">
+                  <a href="tel:+4978049120090">07804 / 91 200 90</a><br>
+                  <a href="mailto:info@kranservicemagnus.de">info@kranservicemagnus.de</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <svg class="contact-info-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+              </svg>
+              <div>
+                <h3 class="contact-info-card__title">Öffnungszeiten</h3>
+                <!-- TODO: Öffnungszeiten erfragen -->
+                <dl class="hours-list">
+                  <dt>Mo – Fr</dt><dd>[TODO] Uhr</dd>
+                  <dt>Samstag</dt><dd>[TODO] Uhr</dd>
+                  <dt>Sonntag</dt><dd>Geschlossen</dd>
+                </dl>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+
+      <div>
+        <div class="footer-brand__logo">
+          <svg width="40" height="40" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="44" height="44" rx="8" fill="#1E2D3D"/>
+            <text x="22" y="29" text-anchor="middle" font-family="Georgia, serif" font-size="15" font-weight="700" fill="#E8A800">KM</text>
+          </svg>
+          <span class="footer-brand__name">Kran-Service Magnus</span>
+        </div>
+        <p class="footer-brand__desc">
+          Ihr Spezialist für Kranverleih, Kranarbeiten, Wartung und Schulungen
+          in Oppenau und der Region Schwarzwald. Über 20 Jahre Erfahrung –
+          Sicherheit und Zuverlässigkeit an erster Stelle.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Navigation</h3>
+        <nav aria-label="Footer-Navigation">
+          <ul class="footer-nav__list">
+            <li><a href="#start">Start</a></li>
+            <li><a href="#leistungen">Leistungen</a></li>
+            <li><a href="#referenzen">Referenzen</a></li>
+            <li><a href="#ueber-uns">Über uns</a></li>
+            <li><a href="#aktuelles">Aktuelles</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Kontakt</h3>
+        <address>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>Schwarzwaldstraße 3<br>77728 Oppenau</span>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+            </svg>
+            <a href="tel:+4978049120090">07804 / 91 200 90</a>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <a href="mailto:info@kranservicemagnus.de">info@kranservicemagnus.de</a>
+          </div>
+        </address>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Öffnungszeiten</h3>
+        <!-- TODO: Öffnungszeiten erfragen -->
+        <dl class="footer-hours">
+          <dt>Mo – Fr</dt><dd>[TODO] Uhr</dd>
+          <dt>Samstag</dt><dd>[TODO] Uhr</dd>
+          <dt>Sonntag</dt><dd>Geschlossen</dd>
+        </dl>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <p>&copy; 2026 Kran-Service Magnus. Alle Rechte vorbehalten.</p>
+        <div class="footer-bottom__links">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+          <a href="#">AGB</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
