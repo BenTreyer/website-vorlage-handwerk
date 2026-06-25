@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Metallbau Languth – Stahlbau, Geländer &amp; Tore in Oberkirch</title>
+
+  <meta name="description" content="Metallbau Languth in Oberkirch – Ihr Fachbetrieb für Stahlbau, Geländer, Tore, Zäune und Montage. Marcus Langguth – Präzision aus dem Ortenaukreis." />
+
+  <!-- Google Fonts: Barlow Condensed + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Scroll-Fortschrittsbalken (wird per JS befüllt) -->
+  <div class="scroll-progress" role="progressbar" aria-hidden="true"></div>
+
+  <a href="#start" class="skip-link">Zum Inhalt springen</a>
+
+  <!-- ============================================================
+       HEADER & NAVIGATION
+       ============================================================ -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- LOGO: Initialen ML in Anthrazit -->
+      <a href="#start" class="logo" aria-label="Metallbau Languth – nach oben">
+        <svg class="logo__icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect width="44" height="44" rx="6" fill="#2D3436"/>
+          <text x="22" y="30" text-anchor="middle" font-family="Arial Narrow, Arial, sans-serif" font-size="16" font-weight="800" fill="#E17000">ML</text>
+        </svg>
+        <span class="logo__text">
+          <span class="logo__name">Metallbau Languth</span>
+          <span class="logo__sub">Stahlbau &middot; Montage &middot; Oberkirch</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
+        <ul class="main-nav__list" role="list">
+          <li class="main-nav__item"><a href="#leistungen">Leistungen</a></li>
+          <li class="main-nav__item"><a href="#referenzen">Referenzen</a></li>
+          <li class="main-nav__item"><a href="#ueber-uns">Über uns</a></li>
+          <li class="main-nav__item"><a href="#aktuelles">Aktuelles</a></li>
+        </ul>
+        <div class="main-nav__cta">
+          <a href="#kontakt" class="btn btn--primary">Angebot anfragen</a>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="start">
+
+    <!-- ============================================================
+         1. HERO
+         ============================================================ -->
+    <section class="hero" aria-label="Willkommen">
+      <div class="hero__image" aria-hidden="true">
+        <!-- TODO: Echtes Foto einsetzen (Werkstatt, Baustelle oder Produkt) -->
+        <img
+          src="https://picsum.photos/seed/metallbau-hero/1600/900"
+          alt="Metallbauer bei der Arbeit in der Werkstatt"
+          width="1600" height="900"
+          loading="eager" fetchpriority="high"
+        />
+      </div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <span class="hero__tag">Metallbau aus dem Ortenaukreis</span>
+        <h1 class="hero__title">
+          Stahl nach Maß –<br>
+          <span class="hero__typed" aria-live="polite"></span><span class="hero__typed-cursor" aria-hidden="true"></span>
+        </h1>
+        <p class="hero__lead">
+          Metallbau Languth in Oberkirch – Ihr zuverlässiger Fachbetrieb für Stahlkonstruktionen,
+          Geländer, Tore und Zäune. Marcus Langguth und sein Team fertigen und montieren präzise –
+          für Privat- und Gewerbekunden im Ortenaukreis.
+        </p>
+        <div class="hero__actions">
+          <a href="#leistungen" class="btn btn--primary btn--lg">Unsere Leistungen</a>
+          <a href="#kontakt" class="btn btn--outline-white btn--lg">Kostenlos anfragen</a>
+        </div>
+      </div>
+    </section>
+    <div class="wave-divider" style="background:#1A1F22;" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C320,60 480,0 720,30 C960,60 1120,0 1440,30 L1440,60 L0,60 Z" fill="#F5F6F7"/></svg></div>
+
+    <!-- ============================================================
+         2. LEISTUNGEN
+         ============================================================ -->
+    <section class="section" id="leistungen">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Was wir für Sie leisten</span>
+          <h2 class="section__title">Unsere Leistungen</h2>
+          <p class="section__lead">
+            Von der Werkstatt auf die Baustelle – wir fertigen und montieren Metallkonstruktionen
+            aller Art. Präzise, langlebig und auf Ihre Anforderungen zugeschnitten.
+          </p>
+        </div>
+
+        <!-- 4 LEISTUNGSKARTEN -->
+        <div class="grid-2" style="gap: 2rem; margin-bottom: 4rem;">
+
+          <!-- LEISTUNG 1: Stahlbau & Konstruktionen -->
+          <div class="service-detail-card" id="stahlbau">
+            <div class="service-detail-card__image-wrap">
+              <!-- TODO: Echtes Foto Stahlkonstruktion einsetzen -->
+              <img class="service-detail-card__image"
+                src="https://picsum.photos/seed/stahlbau-detail/800/500"
+                alt="Stahlkonstruktion im Rohbau"
+                width="800" height="500" loading="lazy" />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG: Stahlträger / I-Profil -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="4" y="6" width="28" height="4" rx="1" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                  <rect x="4" y="26" width="28" height="4" rx="1" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                  <rect x="16" y="10" width="4" height="16" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <span class="service-detail-card__bg-num" aria-hidden="true">01</span>
+              <span class="service-detail-card__tag">Stahlbau</span>
+              <h3 class="service-detail-card__title">Stahlkonstruktionen – maßgefertigt und belastbar</h3>
+              <p class="service-detail-card__text">
+                Unterkonstruktionen, Träger, Rahmen und Überdachungen in Stahl – wir planen und
+                fertigen Stahlbauten für Gewerbe und Privat. Jede Konstruktion entsteht nach
+                Ihren Maßen in unserer Werkstatt und wird fachgerecht vor Ort montiert.
+              </p>
+              <a href="#kontakt" class="btn btn--cta">Jetzt anfragen</a>
+            </div>
+          </div>
+
+          <!-- LEISTUNG 2: Geländer & Treppen -->
+          <div class="service-detail-card" id="gelaender">
+            <div class="service-detail-card__image-wrap">
+              <!-- TODO: Echtes Foto Geländer/Treppe einsetzen -->
+              <img class="service-detail-card__image"
+                src="https://picsum.photos/seed/gelaender-detail/800/500"
+                alt="Edelstahlgeländer an einer Außentreppe"
+                width="800" height="500" loading="lazy" />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG: Treppe mit Geländer -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 30h6V24h6v-6h6v-6h6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <line x1="6" y1="6" x2="6" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="6" y1="30" x2="30" y2="30" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="10" y1="5" x2="30" y2="5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                  <line x1="10" y1="5" x2="10" y2="30" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <span class="service-detail-card__bg-num" aria-hidden="true">02</span>
+              <span class="service-detail-card__tag">Geländer &amp; Treppen</span>
+              <h3 class="service-detail-card__title">Geländer &amp; Treppen – Stahl und Edelstahl nach Maß</h3>
+              <p class="service-detail-card__text">
+                Treppengeländer, Balkongeländer und Außentreppen in Stahl, Edelstahl oder Aluminium –
+                für Wohn- und Gewerbegebäude. Wir messen vor Ort auf, fertigen in der Werkstatt
+                und montieren termingerecht. Langlebig, pflegeleicht und optisch ansprechend.
+              </p>
+              <a href="#kontakt" class="btn btn--cta">Jetzt anfragen</a>
+            </div>
+          </div>
+
+          <!-- LEISTUNG 3: Tore & Zäune -->
+          <div class="service-detail-card" id="tore">
+            <div class="service-detail-card__image-wrap">
+              <!-- TODO: Echtes Foto Tor/Zaun einsetzen -->
+              <img class="service-detail-card__image"
+                src="https://picsum.photos/seed/tore-zaun-detail/800/500"
+                alt="Einfahrtstor aus Stahl mit Schiebemechanismus"
+                width="800" height="500" loading="lazy" />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG: Tor -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="3" y="8" width="13" height="20" rx="1" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                  <rect x="20" y="8" width="13" height="20" rx="1" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                  <line x1="3" y1="18" x2="16" y2="18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                  <line x1="20" y1="18" x2="33" y2="18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                  <circle cx="17" cy="18" r="1.5" fill="currentColor"/>
+                  <line x1="3" y1="5" x2="33" y2="5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  <line x1="3" y1="31" x2="33" y2="31" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <span class="service-detail-card__bg-num" aria-hidden="true">03</span>
+              <span class="service-detail-card__tag">Tore &amp; Zäune</span>
+              <h3 class="service-detail-card__title">Tore &amp; Zäune – sicher und langlebig eingefriedet</h3>
+              <p class="service-detail-card__text">
+                Einfahrtstore als Dreh- oder Schiebetor, Hofzäune, Gartenzäune und
+                Sicherheitseinfriedungen – individuell nach Ihren Wünschen gefertigt.
+                Ob Privatgrundstück oder Gewerbeobjekt: Metallbau Languth liefert
+                robuste Lösungen aus einer Hand.
+              </p>
+              <a href="#kontakt" class="btn btn--cta">Jetzt anfragen</a>
+            </div>
+          </div>
+
+          <!-- LEISTUNG 4: Schlosserei & Montage -->
+          <div class="service-detail-card" id="montage">
+            <div class="service-detail-card__image-wrap">
+              <!-- TODO: Echtes Foto Montage/Schlosserei einsetzen -->
+              <img class="service-detail-card__image"
+                src="https://picsum.photos/seed/montage-schlosserei/800/500"
+                alt="Metallbauer bei der Montage einer Stahlkonstruktion"
+                width="800" height="500" loading="lazy" />
+              <div class="service-detail-card__icon-wrap" aria-hidden="true">
+                <!-- SVG: Schraubenschlüssel -->
+                <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M28 6l-4 4-2.5-2.5 4-4A6.5 6.5 0 0016 12L5 23a2.5 2.5 0 003.5 3.5L19.5 16A6.5 6.5 0 0028 6z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+                  <circle cx="9.5" cy="25.5" r="2" fill="currentColor"/>
+                  <path d="M22 14l6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+            <div class="service-detail-card__body">
+              <span class="service-detail-card__bg-num" aria-hidden="true">04</span>
+              <span class="service-detail-card__tag">Schlosserei &amp; Montage</span>
+              <h3 class="service-detail-card__title">Schlosserei &amp; Montage – alles aus einer Hand</h3>
+              <p class="service-detail-card__text">
+                Reparaturen, Sonderanfertigungen und Montagearbeiten direkt vor Ort –
+                Metallbau Languth ist Ihr Ansprechpartner für alle Metallarbeiten im
+                Ortenaukreis. Schnell, zuverlässig und mit dem Blick fürs Detail.
+              </p>
+              <a href="#kontakt" class="btn btn--cta">Jetzt anfragen</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <div class="wave-divider" style="background:#F5F6F7;" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C320,0 480,60 720,30 C960,0 1120,60 1440,30 L1440,60 L0,60 Z" fill="#EAECEE"/></svg></div>
+
+    <!-- ============================================================
+         3. REFERENZEN
+         ============================================================ -->
+    <section class="section section--alt" id="referenzen">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Unsere Arbeit spricht für sich</span>
+          <h2 class="section__title">Ausgewählte Referenzprojekte</h2>
+          <p class="section__lead">
+            Einblick in Projekte, die wir mit Sorgfalt und handwerklicher Präzision umgesetzt haben.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- TODO: Echte Projektfotos einsetzen -->
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/stahl-gewerbe/600/450"
+              alt="Stahlkonstruktion für Gewerbegebäude Oberkirch"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Stahlkonstruktion Gewerbe Oberkirch</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/edelstahl-gelaender/600/450"
+              alt="Edelstahlgeländer Mehrfamilienhaus Renchtal"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Edelstahlgeländer MFH Renchtal</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/einfahrtstor-stahl/600/450"
+              alt="Einfahrtstor Stahl mit Schiebeantrieb"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Einfahrtstor mit Schiebeantrieb</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/aussentreppe-gitterrost/600/450"
+              alt="Außentreppe mit Gitterroststufen"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Außentreppe Gitterrost</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/hofzaun-industrie/600/450"
+              alt="Hofzaun Industriegelände Achern"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Hofzaun Industriegelände</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <img src="https://picsum.photos/seed/carport-stahl/600/450"
+              alt="Carport-Überdachung aus Stahl"
+              width="600" height="450" loading="lazy" />
+            <div class="project-item__overlay">
+              <span class="project-item__label">Carport-Überdachung Stahl</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <div class="wave-divider" style="background:#EAECEE;" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C320,60 480,0 720,30 C960,60 1120,0 1440,30 L1440,60 L0,60 Z" fill="#F5F6F7"/></svg></div>
+
+    <!-- ============================================================
+         4. ÜBER UNS
+         ============================================================ -->
+    <section class="section" id="ueber-uns">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Wer wir sind</span>
+          <h2 class="section__title">Über uns</h2>
+        </div>
+
+        <div class="about-grid">
+          <div>
+            <span class="about-content__tag">Unser Betrieb</span>
+            <h3 class="about-content__title">Metallbau mit Erfahrung und Leidenschaft</h3>
+            <p class="about-content__text">
+              Metallbau Languth in Oberkirch steht für handwerkliche Präzision und persönlichen
+              Service. Inhaber Marcus Langguth führt den Betrieb als Einzelunternehmen –
+              mit dem Anspruch, jede Arbeit so auszuführen, wie er es für sein eigenes Haus
+              tun würde: sorgfältig, solide und termingerecht.
+            </p>
+            <p class="about-content__text">
+              Von der ersten Maßaufnahme über die Fertigung in der eigenen Werkstatt bis zur
+              abschließenden Montage vor Ort – alles kommt aus einer Hand. So entstehen
+              Metallarbeiten, die nicht nur funktionieren, sondern auch über Jahre ihre
+              Qualität behalten.
+            </p>
+            <ul style="list-style:none;padding:0;margin-top:1.25rem;display:flex;flex-direction:column;gap:0.5rem;">
+              <li style="display:flex;align-items:center;gap:0.5rem;font-size:0.875rem;color:var(--color-text-muted);">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                Einzelunternehmen mit persönlichem Kundenkontakt
+              </li>
+              <li style="display:flex;align-items:center;gap:0.5rem;font-size:0.875rem;color:var(--color-text-muted);">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                Fertigung und Montage aus einer Hand
+              </li>
+              <li style="display:flex;align-items:center;gap:0.5rem;font-size:0.875rem;color:var(--color-text-muted);">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-secondary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+                Für Privat- und Gewerbekunden im Ortenaukreis
+              </li>
+            </ul>
+          </div>
+
+          <!-- TODO: Echtes Foto (Werkstatt, Inhaber oder Team) einsetzen -->
+          <div class="about-image">
+            <img
+              src="https://picsum.photos/seed/metallbau-werkstatt/800/600"
+              alt="Marcus Langguth in der Metallbau-Werkstatt"
+              width="800" height="600" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Kennzahlen-Balken -->
+    <div class="stats-bar" aria-label="Unsere Kennzahlen">
+      <div class="container">
+        <div class="stats-grid">
+          <!-- TODO: Gründungsjahr und genaue Projektzahlen beim Kunden erfragen -->
+          <div class="stat-item">
+            <div class="stat-item__number" data-from="2000" data-target="2005" data-prefix="seit ">seit <!-- TODO: Gründungsjahr --></div>
+            <div class="stat-item__label">in Oberkirch tätig</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__number" data-from="0" data-target="150" data-suffix="+">150+</div>
+            <div class="stat-item__label">abgeschlossene Projekte</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-item__number" data-from="0" data-target="100" data-suffix="%">100&nbsp;%</div>
+            <div class="stat-item__label">Eigenleistung aus der Werkstatt</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team -->
+    <section class="section section--alt" aria-label="Team">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Der Mensch hinter dem Betrieb</span>
+          <h3 class="section__title">Ihr Ansprechpartner</h3>
+        </div>
+
+        <div class="team-grid">
+
+          <!-- Inhaber Marcus Languth -->
+          <!-- TODO: Echtes Porträtfoto einsetzen -->
+          <div class="team-card">
+            <img class="team-card__photo"
+              src="https://picsum.photos/seed/marcus-languth/300/300"
+              alt="Porträtfoto von Marcus Langguth"
+              width="300" height="300" loading="lazy" />
+            <h4 class="team-card__name">Marcus Langguth</h4>
+            <p class="team-card__role">Inhaber &amp; Metallbauermeister</p>
+          </div>
+
+          <!-- TODO: Weitere Teammitglieder beim Kunden erfragen -->
+
+        </div>
+      </div>
+    </section>
+    <div class="wave-divider" style="background:#EAECEE;" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,30 C320,0 480,60 720,30 C960,0 1120,60 1440,30 L1440,60 L0,60 Z" fill="#F5F6F7"/></svg></div>
+
+    <!-- ============================================================
+         5. AKTUELLES
+         ============================================================ -->
+    <section class="section" id="aktuelles">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Neuigkeiten &amp; Projekte</span>
+          <h2 class="section__title">Aktuelles aus dem Betrieb</h2>
+          <p class="section__lead">
+            Einblicke in aktuelle Projekte und Wissenswertes rund um Metallbau und Montage –
+            direkt aus der Werkstatt Oberkirch.
+          </p>
+        </div>
+
+        <div class="news-grid">
+
+          <!-- TODO: Echte Neuigkeiten / Projekte einsetzen -->
+          <article class="news-card">
+            <div class="news-card__image-wrap">
+              <img class="news-card__image"
+                src="https://picsum.photos/seed/news-gelaender2026/800/500"
+                alt="Frisch montiertes Edelstahlgeländer an einem Neubau"
+                width="800" height="500" loading="lazy" />
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <time class="news-card__date" datetime="2026-05-10">10. Mai 2026</time>
+                <span class="news-card__cat">Projekt</span>
+              </div>
+              <h3 class="news-card__title"><a href="#aktuelles">Edelstahlgeländer für Neubau in Oberkirch fertiggestellt</a></h3>
+              <p class="news-card__text">
+                Maßgefertigte Außengeländer in Edelstahl für ein Mehrfamilienhaus – von der
+                Aufmaßnahme bis zur Endmontage in weniger als zwei Wochen. Sauber, schnell,
+                langlebig.
+              </p>
+              <a href="#aktuelles" class="news-card__link">
+                Mehr lesen
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card__image-wrap">
+              <img class="news-card__image"
+                src="https://picsum.photos/seed/news-einfahrtstor2026/800/500"
+                alt="Neues Schiebetor für Gewerbegelände"
+                width="800" height="500" loading="lazy" />
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <time class="news-card__date" datetime="2026-03-22">22. März 2026</time>
+                <span class="news-card__cat">Projekt</span>
+              </div>
+              <h3 class="news-card__title"><a href="#aktuelles">Schiebetor für Gewerbebetrieb im Renchtal</a></h3>
+              <p class="news-card__text">
+                Für einen Betrieb im Renchtal haben wir ein stabiles Schiebetor aus verzinktem
+                Stahl gefertigt und montiert. Inklusive elektrischem Antrieb und Lichtschrankensicherung.
+              </p>
+              <a href="#aktuelles" class="news-card__link">
+                Mehr lesen
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="news-card">
+            <div class="news-card__image-wrap">
+              <img class="news-card__image"
+                src="https://picsum.photos/seed/news-carport2025/800/500"
+                alt="Carport-Überdachung aus Stahl"
+                width="800" height="500" loading="lazy" />
+            </div>
+            <div class="news-card__body">
+              <div class="news-card__meta">
+                <time class="news-card__date" datetime="2025-11-05">5. November 2025</time>
+                <span class="news-card__cat">Projekt</span>
+              </div>
+              <h3 class="news-card__title"><a href="#aktuelles">Carport-Überdachung aus Stahl – robust durch den Winter</a></h3>
+              <p class="news-card__text">
+                Eine Stahlüberdachung für zwei PKW, schneelaststabil und feuerverzinkt. Aufgestellt
+                an einem Wochenende – fertig für die kalte Jahreszeit. Anfragen gerne jederzeit.
+              </p>
+              <a href="#aktuelles" class="news-card__link">
+                Mehr lesen
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         6. KONTAKT
+         ============================================================ -->
+    <section class="section contact-section" id="kontakt">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__tag">Nehmen Sie Kontakt auf</span>
+          <h2 class="section__title">Wir freuen uns auf Ihr Projekt</h2>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- KONTAKTFORMULAR -->
+          <!-- TODO: Formspree-Endpunkt in js/main.js eintragen -->
+          <form class="contact-form" id="kontaktformular" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="name">Ihr Name <span aria-hidden="true">*</span></label>
+              <input class="form-control" type="text" id="name" name="name" required autocomplete="name" placeholder="Max Mustermann" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">E-Mail-Adresse <span aria-hidden="true">*</span></label>
+              <input class="form-control" type="email" id="email" name="email" required autocomplete="email" placeholder="max@beispiel.de" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="telefon">Telefon <span style="font-weight:400;color:var(--color-text-muted);">(optional)</span></label>
+              <input class="form-control" type="tel" id="telefon" name="telefon" autocomplete="tel" placeholder="07802 12 34 56" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="betreff">Betreff</label>
+              <input class="form-control" type="text" id="betreff" name="betreff" placeholder="z. B. Geländer – Einfamilienhaus" />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="nachricht">Ihre Nachricht <span aria-hidden="true">*</span></label>
+              <textarea class="form-control" id="nachricht" name="nachricht" required placeholder="Beschreiben Sie kurz Ihr Vorhaben …"></textarea>
+            </div>
+            <p style="font-size:0.78rem;color:var(--color-text-muted);margin-bottom:1rem;line-height:1.5;">
+              Mit dem Absenden stimmen Sie unserer
+              <a href="#" style="color:var(--color-secondary);text-decoration:underline;">Datenschutzerklärung</a> zu.
+            </p>
+            <button type="submit" class="btn btn--primary btn--lg">Nachricht absenden</button>
+          </form>
+
+          <!-- KONTAKTINFORMATIONEN -->
+          <div class="contact-info">
+
+            <div class="contact-info-card">
+              <svg class="contact-info-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+              <div>
+                <h3 class="contact-info-card__title">Adresse</h3>
+                <address class="contact-info-card__text">
+                  Metallbau Languth<br>
+                  Kindergartenstr. 4b<br>
+                  77704 Oberkirch
+                </address>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <svg class="contact-info-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+              </svg>
+              <div>
+                <h3 class="contact-info-card__title">Telefon &amp; E-Mail</h3>
+                <p class="contact-info-card__text">
+                  <a href="tel:+4978027063888">+49 7802 7063888</a><br>
+                  <!-- TODO: E-Mail bestätigen (ggf. info@ statt nfo@) -->
+                  <a href="mailto:info@langguth-montage.de">info@langguth-montage.de</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact-info-card">
+              <svg class="contact-info-card__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
+              </svg>
+              <div>
+                <h3 class="contact-info-card__title">Öffnungszeiten</h3>
+                <!-- TODO: Öffnungszeiten beim Kunden erfragen -->
+                <dl class="hours-list">
+                  <dt>Mo – Fr</dt><dd>nach Vereinbarung</dd>
+                  <dt>Samstag</dt><dd>nach Vereinbarung</dd>
+                  <dt>Sonntag</dt><dd>Geschlossen</dd>
+                </dl>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+
+      <div>
+        <div class="footer-brand__logo">
+          <svg width="40" height="40" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="44" height="44" rx="6" fill="#2D3436"/>
+            <text x="22" y="30" text-anchor="middle" font-family="Arial Narrow, Arial, sans-serif" font-size="16" font-weight="800" fill="#E17000">ML</text>
+          </svg>
+          <span class="footer-brand__name">Metallbau Languth</span>
+        </div>
+        <p class="footer-brand__desc">
+          Fachbetrieb für Stahlbau, Geländer, Tore und Montage in Oberkirch.
+          Marcus Langguth – präzise Metallarbeiten aus einer Hand.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Navigation</h3>
+        <nav aria-label="Footer-Navigation">
+          <ul class="footer-nav__list">
+            <li><a href="#start">Start</a></li>
+            <li><a href="#leistungen">Leistungen</a></li>
+            <li><a href="#referenzen">Referenzen</a></li>
+            <li><a href="#ueber-uns">Über uns</a></li>
+            <li><a href="#aktuelles">Aktuelles</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Kontakt</h3>
+        <address>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>Kindergartenstr. 4b<br>77704 Oberkirch</span>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
+            </svg>
+            <a href="tel:+4978027063888">+49 7802 7063888</a>
+          </div>
+          <div class="footer-contact__item">
+            <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <a href="mailto:info@langguth-montage.de">info@langguth-montage.de</a>
+          </div>
+        </address>
+      </div>
+
+      <div>
+        <h3 class="footer-col__title">Öffnungszeiten</h3>
+        <!-- TODO: Öffnungszeiten bestätigen -->
+        <dl class="footer-hours">
+          <dt>Mo – Fr</dt><dd>nach Vereinbarung</dd>
+          <dt>Sa – So</dt><dd>Geschlossen</dd>
+        </dl>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <p>&copy; 2026 Metallbau Languth – Marcus Langguth. Alle Rechte vorbehalten.</p>
+        <div class="footer-bottom__links">
+          <a href="#">Impressum</a>
+          <a href="#">Datenschutz</a>
+          <a href="#">AGB</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
