@@ -18,14 +18,8 @@
   <header class="site-header">
     <div class="container header-inner">
       <a href="#start" class="logo" aria-label="Rechtsanwälte Wortberg, Bongarth &amp; Hug – nach oben">
-        <svg class="logo__icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="44" height="44" rx="8" fill="#1A2842"/>
-          <text x="22" y="29" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="700" fill="#B8862A">WBH</text>
-        </svg>
-        <span class="logo__text">
-          <span class="logo__name">Wortberg, Bongarth &amp; Hug</span>
-          <span class="logo__sub">Rechtsanw&auml;lte &middot; Renchtal</span>
-        </span>
+        <img class="logo__img" src="assets/logo-wortberg.jpg" alt="Wortberg, Bongarth &amp; Hug Rechtsanw&auml;lte Logo" height="40" />
+        <span class="logo__sub">Renchtal</span>
       </a>
       <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Men&uuml; &ouml;ffnen">
         <span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span><span class="nav-toggle__bar"></span>
@@ -471,9 +465,9 @@
         <div class="about-grid">
           <div class="about-image">
             <img
-              src="https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?w=800&h=600&fit=crop&auto=format&q=80"
-              alt="Antiquarische Rechtsliteratur im Kanzleiregal – Tradition seit 1981"
-              width="800" height="600" loading="lazy" />
+              src="assets/kanzlei-wartezimmer.jpg"
+              alt="Wartebereich der Kanzlei Wortberg, Bongarth &amp; Hug in Oberkirch"
+              width="934" height="615" loading="lazy" />
           </div>
           <div>
             <span class="about-content__tag">Kanzleigeschichte</span>
@@ -536,34 +530,22 @@
           <span class="section__tag">Ihre Ansprechpartner</span>
           <h3 class="section__title">Unser Anwaltsteam</h3>
         </div>
+        <div class="team-photo-group" style="margin-bottom:var(--space-8);border-radius:var(--radius-md);overflow:hidden;box-shadow:var(--shadow-md);">
+          <img src="assets/team-vor-ort.jpg" alt="Die Rechtsanwälte der Kanzlei Wortberg, Bongarth &amp; Hug vor dem Kanzleischild in Oberkirch" width="934" height="660" style="width:100%;height:auto;display:block;" loading="lazy" />
+        </div>
         <div class="team-grid">
-          <!-- Platzhalter: echte Fotos der Geschäftsleitung/Anwälte noch mit der Kanzlei abstimmen; Fachgebiets-Zuordnung pro Anwalt ebenfalls nicht auf der echten Kanzlei-Website angegeben -->
+          <!-- Fachgebiets-Zuordnung pro Anwalt nicht auf der echten Kanzlei-Website angegeben -->
           <div class="team-card">
-            <svg class="team-card__photo" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Platzhalter-Foto Willi Wortberg">
-              <circle cx="75" cy="75" r="75" fill="#1A2842"/>
-              <text x="75" y="90" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#B8862A">WW</text>
-            </svg>
             <h4 class="team-card__name">Willi Wortberg</h4>
             <p class="team-card__role">Rechtsanwalt</p>
-            <p class="team-card__photo-note" style="font-size:0.78rem;color:var(--color-text-muted);font-style:italic;margin-top:0.25rem;">Foto folgt</p>
           </div>
           <div class="team-card">
-            <svg class="team-card__photo" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Platzhalter-Foto Gerhard Bongarth">
-              <circle cx="75" cy="75" r="75" fill="#1A2842"/>
-              <text x="75" y="90" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#B8862A">GB</text>
-            </svg>
             <h4 class="team-card__name">Gerhard Bongarth</h4>
             <p class="team-card__role">Rechtsanwalt</p>
-            <p class="team-card__photo-note" style="font-size:0.78rem;color:var(--color-text-muted);font-style:italic;margin-top:0.25rem;">Foto folgt</p>
           </div>
           <div class="team-card">
-            <svg class="team-card__photo" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Platzhalter-Foto Sarah Hug">
-              <circle cx="75" cy="75" r="75" fill="#1A2842"/>
-              <text x="75" y="90" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" font-weight="700" fill="#B8862A">SH</text>
-            </svg>
             <h4 class="team-card__name">Sarah Hug</h4>
             <p class="team-card__role">Rechtsanw&auml;ltin</p>
-            <p class="team-card__photo-note" style="font-size:0.78rem;color:var(--color-text-muted);font-style:italic;margin-top:0.25rem;">Foto folgt</p>
           </div>
         </div>
       </div>
@@ -678,7 +660,9 @@
     <div class="container footer-main">
       <div>
         <div class="footer-brand__logo">
-          <svg width="40" height="40" viewBox="0 0 44 44" fill="none" aria-hidden="true"><rect width="44" height="44" rx="8" fill="#1A2842"/><text x="22" y="29" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" font-weight="700" fill="#B8862A">WBH</text></svg>
+          <span style="display:inline-flex;background:#fff;border-radius:6px;padding:0.4rem 0.6rem;">
+            <img src="assets/logo-wortberg.jpg" alt="Wortberg, Bongarth &amp; Hug Rechtsanw&auml;lte Logo" height="28" />
+          </span>
           <span class="footer-brand__name">Wortberg, Bongarth &amp; Hug</span>
         </div>
         <p class="footer-brand__desc">
