@@ -1,4 +1,4 @@
-/* main.js – Rechtsanwälte Wortberg & Dr. Stöcke */
+/* main.js – Rechtsanwälte Wortberg, Bongarth & Hug */
 'use strict';
 
 (function initMobileNav() {
