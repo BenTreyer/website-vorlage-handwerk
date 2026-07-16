@@ -1276,6 +1276,7 @@ textarea.form-control { resize: vertical; }
   padding: var(--space-3) var(--space-4);
   margin-top: var(--space-4);
 }
+.booking-error[hidden] { display: none; }
 
 /* --- Bestätigungszustand --- */
 .booking-confirm {
