@@ -9,19 +9,19 @@
    anpassen – wirkt auf alle Elemente.
    ============================================= */
 :root {
-  /* FARBEN HIER ANPASSEN */
-  --color-primary:        #1B3A6B;   /* Dunkelblau – Vertrauen & Professionalität */
-  --color-primary-hover:  #142D56;
-  --color-secondary:      #D94F00;   /* Kräftiges Orange – Handwerk & Energie */
-  --color-secondary-hover:#BB4400;
-  --color-accent:         #F5A623;   /* Amber-Gold */
-  --color-bg:             #F7F9FC;
-  --color-bg-alt:         #EBF0F8;
-  --color-bg-dark:        #0D1F3C;
-  --color-text:           #0D1F3C;
-  --color-text-muted:     #4A5E7A;
+  /* FARBEN HIER ANPASSEN — aus dem echten Logo (rot/grau) recherchiert */
+  --color-primary:        #C41414;   /* Brandstetter-Rot aus dem Logo */
+  --color-primary-hover:  #A00E0E;
+  --color-secondary:      #55564F;   /* Logo-Grau (MONTAGE-SERVICE Schriftzug) */
+  --color-secondary-hover:#3E3F3A;
+  --color-accent:         #D9612E;   /* warmer Terrakotta-Akzent, Handwerk */
+  --color-bg:             #FAFAF9;
+  --color-bg-alt:         #F0EFEC;
+  --color-bg-dark:        #201F1D;
+  --color-text:           #201F1D;
+  --color-text-muted:     #5C5B57;
   --color-white:          #FFFFFF;
-  --color-border:         #C5D3E8;
+  --color-border:         #DEDCD6;
 
   /* SCHRIFTEN HIER ANPASSEN */
   --font-heading: 'Playfair Display', Georgia, 'Times New Roman', serif;
@@ -292,6 +292,7 @@ p:last-child { margin-bottom: 0; }
 }
 
 .logo__icon { width: 44px; height: 44px; flex-shrink: 0; }
+.logo__img { height: 36px; width: auto; flex-shrink: 0; }
 
 .logo__text {
   display: flex;
