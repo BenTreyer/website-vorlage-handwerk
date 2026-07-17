@@ -30,14 +30,7 @@
 
       <!-- LOGO: Initialen AT in Agrargrün mit Goldschrift -->
       <a href="#start" class="logo" aria-label="ATR GmbH Agrarteam Renchtal – nach oben">
-        <svg class="logo__icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="44" height="44" rx="6" fill="#2C5F2E"/>
-          <text x="22" y="30" text-anchor="middle" font-family="Arial Narrow, Arial, sans-serif" font-size="15" font-weight="800" fill="#D4A017">AT</text>
-        </svg>
-        <span class="logo__text">
-          <span class="logo__name">Agrarteam Renchtal</span>
-          <span class="logo__sub">ATR GmbH &middot; Oberkirch-Haslach</span>
-        </span>
+        <img class="logo__img" src="assets/logo-atr.jpg" alt="ATR GmbH Agrar Team Renchtal Logo" height="40" />
       </a>
 
       <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
@@ -68,10 +61,9 @@
          ============================================================ -->
     <section class="hero" aria-label="Willkommen">
       <div class="hero__image" aria-hidden="true">
-        <!-- TODO: Echtes Foto einsetzen (Kirschenernte, Bagger auf Obstanlage) -->
         <img
-          src="https://picsum.photos/seed/agrar-renchtal-hero/1600/900"
-          alt="Lohnarbeiten im Renchtal – Kirschenernte und Baggerarbeiten"
+          src="assets/baggerarbeiten-1.jpg"
+          alt="Bagger mit Baumschere im Einsatz auf einer Obstanlage im Renchtal"
           width="1600" height="900"
           loading="eager" fetchpriority="high"
         />
@@ -117,10 +109,9 @@
           <!-- LEISTUNG 1: Kirschenernte -->
           <div class="service-detail-card" id="kirschenernte">
             <div class="service-detail-card__image-wrap">
-              <!-- TODO: Echtes Foto Kirschenernte einsetzen -->
               <img class="service-detail-card__image"
-                src="https://picsum.photos/seed/kirschen-ernte-renchtal/800/500"
-                alt="Mechanische Kirschenernte mit Tuchwagen im Renchtal"
+                src="assets/kirschenernte-tuchwagen.jpg"
+                alt="Mechanische Kirschenernte mit dem LIPCO-Tuchwagen"
                 width="800" height="500" loading="lazy" />
               <div class="service-detail-card__icon-wrap" aria-hidden="true">
                 <!-- SVG: Kirschen mit Stielen -->
@@ -151,10 +142,9 @@
           <!-- LEISTUNG 2: Baggerarbeiten -->
           <div class="service-detail-card" id="baggerarbeiten">
             <div class="service-detail-card__image-wrap">
-              <!-- TODO: Echtes Foto Baggerarbeiten einsetzen -->
               <img class="service-detail-card__image"
-                src="https://picsum.photos/seed/bagger-erdarbeiten-renchtal/800/500"
-                alt="Baggerarbeiten auf einer Obstanlage im Renchtal"
+                src="assets/baggerarbeiten-3.jpg"
+                alt="Bagger bei Erdarbeiten im Renchtal"
                 width="800" height="500" loading="lazy" />
               <div class="service-detail-card__icon-wrap" aria-hidden="true">
                 <!-- SVG: Spaten/Schaufel -->
@@ -183,10 +173,9 @@
           <!-- LEISTUNG 3: Rodungen & Pfähle -->
           <div class="service-detail-card" id="rodungen">
             <div class="service-detail-card__image-wrap">
-              <!-- TODO: Echtes Foto Rodung/Hagelschutzpfähle einsetzen -->
               <img class="service-detail-card__image"
-                src="https://picsum.photos/seed/rodung-hagelnetz-renchtal/800/500"
-                alt="Rodungsarbeiten und Hagelschutzpfähle rammen im Renchtal"
+                src="assets/baggerarbeiten-4.jpg"
+                alt="Gerammte Pfähle für ein Hagelschutznetz in einer Obstanlage"
                 width="800" height="500" loading="lazy" />
               <div class="service-detail-card__icon-wrap" aria-hidden="true">
                 <!-- SVG: Tannenbaum / Baum -->
@@ -213,10 +202,9 @@
           <!-- LEISTUNG 4: Landwirtschaftliche Lohnarbeiten -->
           <div class="service-detail-card" id="lohnarbeiten">
             <div class="service-detail-card__image-wrap">
-              <!-- TODO: Echtes Foto Lohnarbeit einsetzen -->
               <img class="service-detail-card__image"
-                src="https://picsum.photos/seed/lohnarbeit-landwirtschaft-renchtal/800/500"
-                alt="Landwirtschaftliche Lohnarbeiten im Renchtal"
+                src="assets/kirschenernte-detail.jpg"
+                alt="Frisch geerntete Kirschen in Kisten portioniert"
                 width="800" height="500" loading="lazy" />
               <div class="service-detail-card__icon-wrap" aria-hidden="true">
                 <!-- SVG: Zahnrad (Lohnarbeit/Dienstleistung) -->
@@ -263,10 +251,9 @@
 
         <div class="projects-grid">
 
-          <!-- TODO: Echte Projektfotos einsetzen -->
           <div class="project-item">
-            <img src="https://picsum.photos/seed/kirschen-ferrero-ernte/600/450"
-              alt="Kirschenernte für Ferrero-Lieferant, Renchtal"
+            <img src="https://images.pexels.com/photos/12735083/pexels-photo-12735083.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+              alt="Reife Kirschen kurz vor der Ernte"
               width="600" height="450" loading="lazy" />
             <div class="project-item__overlay">
               <span class="project-item__label">Kirschenernte Ferrero-Lieferant</span>
@@ -274,7 +261,7 @@
           </div>
 
           <div class="project-item">
-            <img src="https://picsum.photos/seed/hagelnetz-pfaehle-oberkirch/600/450"
+            <img src="assets/baggerarbeiten-4.jpg"
               alt="Hagelschutzpfähle rammen in Obstanlage Oberkirch"
               width="600" height="450" loading="lazy" />
             <div class="project-item__overlay">
@@ -283,8 +270,8 @@
           </div>
 
           <div class="project-item">
-            <img src="https://picsum.photos/seed/drainage-obstbau-haslach/600/450"
-              alt="Drainageanlage verlegt für Obstanlage in Haslach"
+            <img src="assets/baggerarbeiten-3.jpg"
+              alt="Baggerarbeiten für Erdarbeiten in Haslach"
               width="600" height="450" loading="lazy" />
             <div class="project-item__overlay">
               <span class="project-item__label">Drainageanlage Haslach</span>
@@ -292,7 +279,7 @@
           </div>
 
           <div class="project-item">
-            <img src="https://picsum.photos/seed/baumrodung-tmk400-renchtal/600/450"
+            <img src="assets/baggerarbeiten-2.jpg"
               alt="Rodung mit Baumschere TMK 400 im Renchtal"
               width="600" height="450" loading="lazy" />
             <div class="project-item__overlay">
@@ -301,8 +288,8 @@
           </div>
 
           <div class="project-item">
-            <img src="https://picsum.photos/seed/erdarbeiten-neupflanzung-renchtal/600/450"
-              alt="Erdarbeiten für Obstanlage-Neupflanzung im Renchtal"
+            <img src="https://images.pexels.com/photos/31165982/pexels-photo-31165982.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop"
+              alt="Obstbaumblüte bei einer Neupflanzung im Frühjahr"
               width="600" height="450" loading="lazy" />
             <div class="project-item__overlay">
               <span class="project-item__label">Erdarbeiten Neupflanzung</span>
@@ -310,8 +297,8 @@
           </div>
 
           <div class="project-item">
-            <img src="https://picsum.photos/seed/kirschen-maischen-brennerei/600/450"
-              alt="Maischen vor Ort für regionale Brennerei"
+            <img src="assets/kirschenernte-detail.jpg"
+              alt="Geerntete Kirschen für die Maische"
               width="600" height="450" loading="lazy" />
             <div class="project-item__overlay">
               <span class="project-item__label">Maischen für Brennerei</span>
@@ -365,11 +352,10 @@
             </ul>
           </div>
 
-          <!-- TODO: Echtes Foto (Maschinen, Team oder Einsatz) einsetzen -->
           <div class="about-image">
             <img
-              src="https://picsum.photos/seed/agrarteam-maschine-haslach/800/600"
-              alt="ATR GmbH Agrarteam Renchtal – Maschinen im Einsatz"
+              src="assets/baggerarbeiten-2.jpg"
+              alt="ATR GmbH Agrarteam Renchtal – Bagger im Einsatz bei der Rodung"
               width="800" height="600" loading="lazy" />
           </div>
         </div>
@@ -389,9 +375,8 @@
             <div class="stat-item__label">Landwirte &amp; Gründer</div>
           </div>
           <div class="stat-item">
-            <!-- TODO: Anzahl Einsätze / Betriebe beim Kunden erfragen -->
-            <div class="stat-item__number" data-from="0" data-target="100" data-suffix="+">100+</div>
-            <div class="stat-item__label">Einsätze pro Saison</div>
+            <div class="stat-item__number" data-from="0" data-target="14" data-suffix="t">14t</div>
+            <div class="stat-item__label">Baggerkapazität für Wurzelentfernung</div>
           </div>
         </div>
       </div>
@@ -407,32 +392,40 @@
 
         <div class="team-grid">
 
-          <!-- TODO: Echte Namen, Rollen und Porträtfotos der drei Gründer einsetzen -->
           <div class="team-card">
-            <img class="team-card__photo"
-              src="https://picsum.photos/seed/atr-gruender-1/300/300"
-              alt="Porträtfoto Gründer ATR GmbH"
-              width="300" height="300" loading="lazy" />
-            <h4 class="team-card__name"><!-- TODO: Name Gründer 1 --></h4>
-            <p class="team-card__role">Geschäftsführer &amp; Landwirt</p>
+            <svg class="team-card__photo" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+              <defs><clipPath id="teamclip-1"><circle cx="75" cy="75" r="75"/></clipPath></defs>
+              <circle cx="75" cy="75" r="75" fill="#2C5F2E"/>
+              <g clip-path="url(#teamclip-1)" fill="#D4A017" opacity="0.9">
+                <circle cx="75" cy="58" r="24"/>
+                <path d="M15 150c0-33.1 26.9-60 60-60s60 26.9 60 60"/>
+              </g>
+            </svg>
+            <p class="team-card__photo-note" style="font-size:0.85rem;color:var(--color-text-muted);font-style:italic;margin-top:0.5rem;">Ansprechpartner folgt</p>
           </div>
 
           <div class="team-card">
-            <img class="team-card__photo"
-              src="https://picsum.photos/seed/atr-gruender-2/300/300"
-              alt="Porträtfoto Gründer ATR GmbH"
-              width="300" height="300" loading="lazy" />
-            <h4 class="team-card__name"><!-- TODO: Name Gründer 2 --></h4>
-            <p class="team-card__role">Gesellschafter &amp; Landwirt</p>
+            <svg class="team-card__photo" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+              <defs><clipPath id="teamclip-2"><circle cx="75" cy="75" r="75"/></clipPath></defs>
+              <circle cx="75" cy="75" r="75" fill="#2C5F2E"/>
+              <g clip-path="url(#teamclip-2)" fill="#D4A017" opacity="0.9">
+                <circle cx="75" cy="58" r="24"/>
+                <path d="M15 150c0-33.1 26.9-60 60-60s60 26.9 60 60"/>
+              </g>
+            </svg>
+            <p class="team-card__photo-note" style="font-size:0.85rem;color:var(--color-text-muted);font-style:italic;margin-top:0.5rem;">Ansprechpartner folgt</p>
           </div>
 
           <div class="team-card">
-            <img class="team-card__photo"
-              src="https://picsum.photos/seed/atr-gruender-3/300/300"
-              alt="Porträtfoto Gründer ATR GmbH"
-              width="300" height="300" loading="lazy" />
-            <h4 class="team-card__name"><!-- TODO: Name Gründer 3 --></h4>
-            <p class="team-card__role">Gesellschafter &amp; Landwirt</p>
+            <svg class="team-card__photo" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+              <defs><clipPath id="teamclip-3"><circle cx="75" cy="75" r="75"/></clipPath></defs>
+              <circle cx="75" cy="75" r="75" fill="#2C5F2E"/>
+              <g clip-path="url(#teamclip-3)" fill="#D4A017" opacity="0.9">
+                <circle cx="75" cy="58" r="24"/>
+                <path d="M15 150c0-33.1 26.9-60 60-60s60 26.9 60 60"/>
+              </g>
+            </svg>
+            <p class="team-card__photo-note" style="font-size:0.85rem;color:var(--color-text-muted);font-style:italic;margin-top:0.5rem;">Ansprechpartner folgt</p>
           </div>
 
         </div>
@@ -460,7 +453,7 @@
           <article class="news-card">
             <div class="news-card__image-wrap">
               <img class="news-card__image"
-                src="https://picsum.photos/seed/kirschenernte-2026-start/800/500"
+                src="assets/kirschenernte-tuchwagen.jpg"
                 alt="Erntesaison 2026 gestartet – Kirschenernte mit Tuchwagen"
                 width="800" height="500" loading="lazy" />
             </div>
@@ -485,7 +478,7 @@
           <article class="news-card">
             <div class="news-card__image-wrap">
               <img class="news-card__image"
-                src="https://picsum.photos/seed/hagelpfaehle-obstanlage-2026/800/500"
+                src="assets/baggerarbeiten-4.jpg"
                 alt="Hagelschutzpfähle für Obstanlage Renchtal 2026"
                 width="800" height="500" loading="lazy" />
             </div>
@@ -510,7 +503,7 @@
           <article class="news-card">
             <div class="news-card__image-wrap">
               <img class="news-card__image"
-                src="https://picsum.photos/seed/drainageanlage-haslach-herbst/800/500"
+                src="assets/baggerarbeiten-1.jpg"
                 alt="Drainageanlage für landwirtschaftliche Fläche in Haslach"
                 width="800" height="500" loading="lazy" />
             </div>
@@ -638,11 +631,9 @@
 
       <div>
         <div class="footer-brand__logo">
-          <svg width="40" height="40" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect width="44" height="44" rx="6" fill="#2C5F2E"/>
-            <text x="22" y="30" text-anchor="middle" font-family="Arial Narrow, Arial, sans-serif" font-size="15" font-weight="800" fill="#D4A017">AT</text>
-          </svg>
-          <span class="footer-brand__name">Agrarteam Renchtal</span>
+          <span style="display:inline-flex;background:#fff;border-radius:6px;padding:0.3rem 0.5rem;">
+            <img src="assets/logo-atr.jpg" alt="ATR GmbH Agrar Team Renchtal Logo" height="30" />
+          </span>
         </div>
         <p class="footer-brand__desc">
           ATR GmbH – Ihr Lohnunternehmen für Kirschenernte, Baggerarbeiten und Rodungen
