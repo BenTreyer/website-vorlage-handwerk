@@ -98,9 +98,9 @@
   /* PHRASEN HIER ANPASSEN */
   const phrases = [
     'Qualität überzeugt.',
-    'Projekte, die bleiben.',
-    'Handwerk mit Herz.',
-    'Träume aus Holz.',
+    'Präzision auf jedem Material.',
+    'Druck mit Tradition.',
+    'Vom Entwurf zum Druckstück.',
   ];
 
   let phraseIdx = 0;
