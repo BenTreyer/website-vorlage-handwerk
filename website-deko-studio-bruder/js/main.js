@@ -99,10 +99,10 @@
 
   /* PHRASEN HIER ANPASSEN */
   const phrases = [
-    'Räume, die begeistern.',
-    'Deko mit Charakter.',
-    'Ihr Stil, unsere Ideen.',
-    'Momente, die bleiben.',
+    'für Gardinen & Dekostoffe.',
+    'für Plissee & Sonnenschutz.',
+    'für Flächenvorhänge.',
+    'seit dem Jahr 2000.',
   ];
 
   let phraseIdx = 0;
