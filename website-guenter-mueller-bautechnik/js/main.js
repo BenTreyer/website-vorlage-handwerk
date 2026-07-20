@@ -100,7 +100,7 @@
     'Planung mit Weitblick.',
     'Projekte, die halten.',
     'Beratung, der Sie vertrauen.',
-    'Träume aus Holz.',
+    'Von der Idee zum Bau.',
   ];
 
   let phraseIdx = 0;
