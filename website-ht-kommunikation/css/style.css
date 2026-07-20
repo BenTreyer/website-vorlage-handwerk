@@ -676,7 +676,7 @@ address { font-style: normal; }
   font-family: var(--font-heading);
   font-size: clamp(var(--fs-2xl), 4vw, var(--fs-4xl));
   font-weight: 700;
-  color: var(--color-accent);
+  color: var(--color-white);
   line-height: 1;
   margin-bottom: var(--space-2);
 }
