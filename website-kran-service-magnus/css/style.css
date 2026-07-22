@@ -9,12 +9,12 @@
    anpassen – wirkt auf alle Seiten.
    ============================================= */
 :root {
-  /* FARBEN – Kran-Service Magnus (Anthrazit + Krangelb) */
+  /* FARBEN – Kran-Service Magnus (Anthrazit + echtes Signal-Rot vom Firmenlogo) */
   --color-primary:        #1E2D3D;   /* Stahl-Anthrazit – Hauptfarbe */
   --color-primary-hover:  #152330;
-  --color-secondary:      #E8A800;   /* Krangelb – Akzentfarbe */
-  --color-secondary-hover:#C48F00;
-  --color-accent:         #F5C518;   /* Helles Warngelb – CTA */
+  --color-secondary:      #DC0030;   /* Echtes Marken-Rot (aus Firmenlogo/-schild extrahiert) – Akzentfarbe */
+  --color-secondary-hover:#A80025;
+  --color-accent:         #ED2B4E;   /* Helleres Rot – CTA */
   --color-bg:             #F6F7F9;   /* Kühles Weiß – Seitenhintergrund */
   --color-bg-alt:         #EAEDF2;   /* Hellgrau */
   --color-bg-dark:        #0F1923;   /* Sehr dunkles Anthrazit – Footer */
@@ -558,23 +558,13 @@ p:last-child { margin-bottom: 0; }
 .service-detail-card:hover .service-detail-card__image { transform: scale(1.04); }
 
 .service-detail-card__icon-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  background-color: var(--color-secondary);
-  position: absolute;
-  bottom: -32px;
-  left: var(--space-6);
-  box-shadow: var(--shadow-md);
+  display: none;
 }
 
 .service-detail-card__icon { width: 30px; height: 30px; color: var(--color-white); }
 
 .service-detail-card__body {
-  padding: calc(var(--space-8) + var(--space-2)) var(--space-6) var(--space-6);
+  padding: var(--space-6);
   flex: 1;
   display: flex;
   flex-direction: column;
