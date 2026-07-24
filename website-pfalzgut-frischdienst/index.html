@@ -21,13 +21,10 @@
     <div class="container header-inner">
 
       <a href="#start" class="logo" aria-label="Pfalzgut Frischdienst – nach oben">
-        <svg class="logo__icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="44" height="44" rx="8" fill="#0A3D2B"/>
-          <text x="22" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#E8921A">PF</text>
-        </svg>
+        <img class="logo__icon" src="assets/images/logo-real.png" alt="Pfalzgut Frischdienst Logo" style="width:44px;height:auto;" />
         <span class="logo__text">
           <span class="logo__name">Pfalzgut Frischdienst</span>
-          <span class="logo__sub">Frische &amp; Molkerei · Achern</span>
+          <span class="logo__sub">Frische &amp; Tiefkühl · Achern</span>
         </span>
       </a>
 
@@ -58,9 +55,9 @@
     <section class="hero" aria-label="Willkommen">
       <div class="hero__image" aria-hidden="true">
         <img
-          src="https://picsum.photos/seed/pfalzgut-frischdienst-hero/1600/900"
-          alt="Frische Lebensmittel und Molkereiprodukte von Pfalzgut Frischdienst"
-          width="1600" height="900"
+          src="assets/images/hero-lkw-flotte.jpg"
+          alt="Echtes Firmenfoto: gekühlte Zustellfahrzeuge von Pfalzgut Frischdienst auf der Autobahn"
+          width="2064" height="714"
           loading="eager" fetchpriority="high"
         />
       </div>
@@ -73,9 +70,9 @@
           <span class="hero__typed" aria-live="polite"></span><span class="hero__typed-cursor" aria-hidden="true"></span>
         </h1>
         <p class="hero__lead">
-          Frische- und Molkereiprodukte in höchster Qualität, direkt zu Ihnen –
+          Frische- und Tiefkühlprodukte in höchster Qualität, direkt zu Ihnen –
           als Bio-zertifizierter Spezialist mit geschlossener Kühlkette beliefern wir
-          Gastronomie, Großküchen und Lebensmitteleinzelhandel seit 1986.
+          Großküchen, Krankenhäuser, Hotels und Gastronomiebetriebe seit 1986.
         </p>
         <div class="hero__actions">
           <a href="#kontakt" class="btn btn--primary btn--lg">Jetzt anfragen</a>
@@ -92,9 +89,8 @@
           <span class="section__tag">Was wir für Sie liefern</span>
           <h2 class="section__title">Unsere Leistungen</h2>
           <p class="section__lead">
-            Von Frischeprodukten bis Molkerei, von Express-Lieferung bis Bio-Sortiment –
-            Pfalzgut Frischdienst ist Ihr verlässlicher Partner für Lebensmittel
-            in höchster Frische-Qualität.
+            Unser Sortiment gliedert sich in drei Warengruppen – Frische, Trocken und
+            Tiefkühl – und deckt den kompletten Bereich Ihres Lebensmitteleinsatzes ab.
           </p>
         </div>
 
@@ -103,8 +99,8 @@
           <div class="service-detail-card" id="frische-molkerei">
             <div class="service-detail-card__image-wrap">
               <img class="service-detail-card__image"
-                src="https://picsum.photos/seed/pfalzgut-molkerei/800/500"
-                alt="Frische Molkereiprodukte – Käse, Joghurt, Butter"
+                src="assets/images/sortiment-frische.png"
+                alt="Echtes Produktfoto: Milch, Käse und Molkereiprodukte"
                 width="800" height="500" loading="lazy" />
               <div class="service-detail-card__icon-wrap" aria-hidden="true">
                 <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +112,7 @@
             </div>
             <div class="service-detail-card__body">
               <span class="service-detail-card__bg-num" aria-hidden="true">01</span>
-              <span class="service-detail-card__tag">Frische &amp; Molkerei</span>
+              <span class="service-detail-card__tag">Frische-Sortiment</span>
               <h3 class="service-detail-card__title">Frische- &amp; Molkereiprodukte – täglich frisch</h3>
               <p class="service-detail-card__text">
                 Unser Sortiment umfasst über 4.500 Artikel: Milch, Käse, Joghurt,
@@ -128,11 +124,11 @@
             </div>
           </div>
 
-          <div class="service-detail-card" id="express-lieferung">
+          <div class="service-detail-card" id="trocken-sortiment">
             <div class="service-detail-card__image-wrap">
               <img class="service-detail-card__image"
-                src="https://picsum.photos/seed/pfalzgut-lieferung/800/500"
-                alt="Express-Lieferung frischer Lebensmittel innerhalb von 24 Stunden"
+                src="assets/images/sortiment-trocken.png"
+                alt="Echtes Produktfoto: Nudeln und Trockensortiment"
                 width="800" height="500" loading="lazy" />
               <div class="service-detail-card__icon-wrap" aria-hidden="true">
                 <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -146,23 +142,22 @@
             </div>
             <div class="service-detail-card__body">
               <span class="service-detail-card__bg-num" aria-hidden="true">02</span>
-              <span class="service-detail-card__tag">Express-Lieferung</span>
-              <h3 class="service-detail-card__title">Lieferung in unter 24 Stunden</h3>
+              <span class="service-detail-card__tag">Trocken-Sortiment</span>
+              <h3 class="service-detail-card__title">Trockensortiment – vom Grundnahrungsmittel bis zur Spezialität</h3>
               <p class="service-detail-card__text">
-                Schnell, zuverlässig und termingerecht: Wir liefern Ihre Bestellung
-                innerhalb von 24 Stunden direkt an Ihren Betrieb.
-                Vom Bestelleingang bis zur Auslieferung garantieren wir
-                eine durchgehend geschlossene Kühlkette.
+                Nudeln, Reis, Gewürze, Konserven und weitere Grundnahrungsmittel
+                für Großküchen und Gastronomie – zuverlässig auf Lager und
+                termingerecht geliefert.
               </p>
-              <a href="#kontakt" class="btn btn--cta">Lieferung anfragen</a>
+              <a href="#kontakt" class="btn btn--cta">Sortiment anfragen</a>
             </div>
           </div>
 
-          <div class="service-detail-card" id="kuehlkette">
+          <div class="service-detail-card" id="tiefkuehl-sortiment">
             <div class="service-detail-card__image-wrap">
               <img class="service-detail-card__image"
-                src="https://picsum.photos/seed/pfalzgut-kuehlkette/800/500"
-                alt="Geschlossene Kühlkette – HACCP-zertifiziert"
+                src="assets/images/sortiment-tiefkuehl.png"
+                alt="Echtes Produktfoto: Tiefkühlsortiment"
                 width="800" height="500" loading="lazy" />
               <div class="service-detail-card__icon-wrap" aria-hidden="true">
                 <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -173,45 +168,40 @@
             </div>
             <div class="service-detail-card__body">
               <span class="service-detail-card__bg-num" aria-hidden="true">03</span>
-              <span class="service-detail-card__tag">Geschlossene Kühlkette</span>
-              <h3 class="service-detail-card__title">Kühlkette &amp; Lebensmittelsicherheit</h3>
+              <span class="service-detail-card__tag">Tiefkühl-Sortiment</span>
+              <h3 class="service-detail-card__title">Tiefkühlprodukte – durchgehend gekühlt</h3>
               <p class="service-detail-card__text">
-                Lebensmittelsicherheit ist unsere oberste Priorität.
-                HACCP-zertifiziert und nach DIN EN ISO 9001 geprüft sichern wir
-                die lückenlose Kühlkette vom Produzenten bis zu Ihrem Betrieb –
-                für Frische, die man schmeckt.
+                Vom Lager bis zur Anlieferung durchgehend tiefgekühlt: Unser
+                Tiefkühlsortiment ergänzt das Frische- und Trockensortiment
+                für den kompletten Bedarf Ihres Betriebs.
               </p>
-              <a href="#kontakt" class="btn btn--cta">Mehr erfahren</a>
+              <a href="#kontakt" class="btn btn--cta">Sortiment anfragen</a>
             </div>
           </div>
 
-          <div class="service-detail-card" id="bio-sortiment">
+          <div class="service-detail-card" id="kuehlkette">
             <div class="service-detail-card__image-wrap">
               <img class="service-detail-card__image"
-                src="https://picsum.photos/seed/pfalzgut-bio/800/500"
-                alt="Bio-Sortiment und Eigenmarke Pfalzgut Qualitätsprodukte"
+                src="https://images.pexels.com/photos/3831826/pexels-photo-3831826.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Lagerhalle für die Kommissionierung"
                 width="800" height="500" loading="lazy" />
               <div class="service-detail-card__icon-wrap" aria-hidden="true">
                 <svg class="service-detail-card__icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M18 30 C18 30 6 22 6 14 A12 12 0 0 1 18 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/>
-                  <path d="M18 30 C18 30 30 22 30 14 A12 12 0 0 0 18 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/>
-                  <line x1="18" y1="8" x2="18" y2="30" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-                  <path d="M18 16 Q22 13 26 15" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" fill="none"/>
-                  <path d="M18 20 Q14 18 10 20" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" fill="none"/>
+                  <path d="M18 4 v28 M18 4 l-5 8 M18 4 l5 8 M18 18 l-7-4 M18 18 l7-4 M18 18 l-7 4 M18 18 l7 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="18" cy="18" r="3" stroke="currentColor" stroke-width="1.6"/>
                 </svg>
               </div>
             </div>
             <div class="service-detail-card__body">
               <span class="service-detail-card__bg-num" aria-hidden="true">04</span>
-              <span class="service-detail-card__tag">Bio-Sortiment &amp; Eigenmarke</span>
-              <h3 class="service-detail-card__title">Bio-zertifiziert – Eigenmarke Pfalzgut</h3>
+              <span class="service-detail-card__tag">Geschlossene Kühlkette</span>
+              <h3 class="service-detail-card__title">Kühlkette &amp; Lebensmittelsicherheit</h3>
               <p class="service-detail-card__text">
-                Seit 2016 Bio-zertifiziert: Unser wachsendes Bio-Sortiment
-                erfüllt höchste Standards. Ergänzend bieten wir unsere
-                Eigenmarke „Pfalzgut Qualitätsprodukte" – sorgfältig
-                ausgewählt, verlässlich und preisstabil.
+                Lebensmittelsicherheit ist unsere oberste Priorität. HACCP-zertifiziert
+                und nach DIN EN ISO 9001 geprüft sichern wir die lückenlose Kühlkette
+                vom Lager bis zu Ihrem Betrieb – mit Lieferung innerhalb von 24 Stunden.
               </p>
-              <a href="#kontakt" class="btn btn--cta">Bio-Sortiment anfragen</a>
+              <a href="#kontakt" class="btn btn--cta">Mehr erfahren</a>
             </div>
           </div>
 
@@ -227,64 +217,46 @@
           <span class="section__tag">Einblicke in unsere Produkte</span>
           <h2 class="section__title">Produktwelten</h2>
           <p class="section__lead">
-            Über 4.500 Artikel – von klassischen Molkereiprodukten
-            bis zu Bio-Spezialitäten, immer frisch und termingerecht geliefert.
+            Über 4.500 Artikel in drei Warengruppen – Frische, Trocken und Tiefkühl –
+            immer frisch und termingerecht geliefert.
           </p>
         </div>
 
-        <div class="projects-grid">
+        <div class="projects-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
 
           <div class="project-item">
-            <img src="https://picsum.photos/seed/pfalzgut-kaese/600/450"
-              alt="Käse-Sortiment – Pfalzgut Frischdienst"
+            <img src="assets/images/sortiment-frische.png"
+              alt="Echtes Produktfoto: Milch, Käse und Molkereiprodukte"
               width="600" height="450" loading="lazy" />
             <div class="project-item__overlay">
-              <span class="project-item__label">Käse-Sortiment</span>
+              <span class="project-item__label">Frische-Sortiment</span>
             </div>
           </div>
 
           <div class="project-item">
-            <img src="https://picsum.photos/seed/pfalzgut-milch/600/450"
-              alt="Milch und Molkereiprodukte"
+            <img src="assets/images/sortiment-trocken.png"
+              alt="Echtes Produktfoto: Nudeln und Trockensortiment"
               width="600" height="450" loading="lazy" />
             <div class="project-item__overlay">
-              <span class="project-item__label">Milch &amp; Molkerei</span>
+              <span class="project-item__label">Trocken-Sortiment</span>
             </div>
           </div>
 
           <div class="project-item">
-            <img src="https://picsum.photos/seed/pfalzgut-joghurt/600/450"
-              alt="Joghurt und Sahneprodukte"
+            <img src="assets/images/sortiment-tiefkuehl.png"
+              alt="Echtes Produktfoto: Tiefkühlsortiment"
               width="600" height="450" loading="lazy" />
             <div class="project-item__overlay">
-              <span class="project-item__label">Joghurt &amp; Sahne</span>
+              <span class="project-item__label">Tiefkühl-Sortiment</span>
             </div>
           </div>
 
           <div class="project-item">
-            <img src="https://picsum.photos/seed/pfalzgut-bio2/600/450"
-              alt="Bio-Produkte – Pfalzgut Bio-zertifiziert"
+            <img src="assets/images/hero-lkw-flotte.jpg"
+              alt="Echtes Firmenfoto: gekühlte Zustellfahrzeuge von Pfalzgut Frischdienst"
               width="600" height="450" loading="lazy" />
             <div class="project-item__overlay">
-              <span class="project-item__label">Bio-Produkte</span>
-            </div>
-          </div>
-
-          <div class="project-item">
-            <img src="https://picsum.photos/seed/pfalzgut-eigenmarke/600/450"
-              alt="Eigenmarke Pfalzgut Qualitätsprodukte"
-              width="600" height="450" loading="lazy" />
-            <div class="project-item__overlay">
-              <span class="project-item__label">Eigenmarke Pfalzgut</span>
-            </div>
-          </div>
-
-          <div class="project-item">
-            <img src="https://picsum.photos/seed/pfalzgut-lieferung2/600/450"
-              alt="Kühlfahrzeug Pfalzgut – Express-Lieferung"
-              width="600" height="450" loading="lazy" />
-            <div class="project-item__overlay">
-              <span class="project-item__label">Express-Lieferung</span>
+              <span class="project-item__label">Zustellung mit eigenem Fuhrpark</span>
             </div>
           </div>
 
@@ -306,10 +278,10 @@
             <span class="about-content__tag">Frischdienst-Spezialist seit 1986</span>
             <h3 class="about-content__title">Pfalzgut Frischdienst GmbH – Frische mit System</h3>
             <p class="about-content__text">
-              Seit 1986 beliefern wir Gastronomie, Großküchen und Lebensmitteleinzelhandel
-              mit Frische- und Molkereiprodukten höchster Qualität. Mit 5 Niederlassungen
-              und ca. 7.000 m² Lagerfläche – darunter unser Standort in Achern –
-              sind wir nah an unseren Kunden in der Region.
+              Seit 1986 beliefern wir Großküchen, Krankenhäuser, Altenheime, Hotels,
+              Gastronomiebetriebe, Mensen und Caterer mit Frische- und Tiefkühlprodukten
+              höchster Qualität. Mit 5 Niederlassungen und über 7.000 m² Lagerfläche –
+              darunter unser Standort in Achern – sind wir nah an unseren Kunden in der Region.
             </p>
             <p class="about-content__text">
               Als IHK-Ausbildungsbetrieb seit 2001 investieren wir in die Zukunft
@@ -334,8 +306,8 @@
 
           <div class="about-image">
             <img
-              src="https://picsum.photos/seed/pfalzgut-about/800/600"
-              alt="Pfalzgut Frischdienst Lager und Team"
+              src="assets/images/hero-lkw-flotte.jpg"
+              alt="Echtes Firmenfoto: gekühlte Zustellfahrzeuge von Pfalzgut Frischdienst"
               width="800" height="600" loading="lazy" />
           </div>
         </div>
@@ -366,34 +338,42 @@
     <section class="section" aria-label="Team">
       <div class="container">
         <div class="section__header">
-          <span class="section__tag">Ihr Ansprechpartner in Achern</span>
+          <span class="section__tag">Die Menschen hinter dem Standort Achern</span>
           <h3 class="section__title">Unser Team</h3>
         </div>
         <div class="team-grid">
-          <!-- TODO: Team-Namen und Fotos erfragen -->
           <div class="team-card">
-            <img class="team-card__photo"
-              src="https://picsum.photos/seed/pfalzgut-t1/300/300"
-              alt="Ansprechpartner Pfalzgut Achern"
-              width="300" height="300" loading="lazy" />
-            <h4 class="team-card__name">[TODO: Name]</h4>
-            <p class="team-card__role">Standortleitung Achern</p>
+            <svg class="team-card__photo" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+              <defs><clipPath id="pg-clip1"><circle cx="75" cy="75" r="75"/></clipPath></defs>
+              <circle cx="75" cy="75" r="75" fill="#0A3D2B"/>
+              <g clip-path="url(#pg-clip1)" fill="#F5FBF7" opacity="0.9">
+                <circle cx="75" cy="58" r="24"/>
+                <path d="M15 150c0-33.1 26.9-60 60-60s60 26.9 60 60"/>
+              </g>
+            </svg>
+            <p class="team-card__photo-note" style="font-size:0.85rem;color:var(--color-text-muted);font-style:italic;margin-top:0.5rem;">Ansprechpartner folgt</p>
           </div>
           <div class="team-card">
-            <img class="team-card__photo"
-              src="https://picsum.photos/seed/pfalzgut-t2/300/300"
-              alt="Fahrer Pfalzgut Frischdienst"
-              width="300" height="300" loading="lazy" />
-            <h4 class="team-card__name">[TODO: Name]</h4>
-            <p class="team-card__role">Lieferung &amp; Logistik</p>
+            <svg class="team-card__photo" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+              <defs><clipPath id="pg-clip2"><circle cx="75" cy="75" r="75"/></clipPath></defs>
+              <circle cx="75" cy="75" r="75" fill="#0A3D2B"/>
+              <g clip-path="url(#pg-clip2)" fill="#F5FBF7" opacity="0.9">
+                <circle cx="75" cy="58" r="24"/>
+                <path d="M15 150c0-33.1 26.9-60 60-60s60 26.9 60 60"/>
+              </g>
+            </svg>
+            <p class="team-card__photo-note" style="font-size:0.85rem;color:var(--color-text-muted);font-style:italic;margin-top:0.5rem;">Ansprechpartner folgt</p>
           </div>
           <div class="team-card">
-            <img class="team-card__photo"
-              src="https://picsum.photos/seed/pfalzgut-t3/300/300"
-              alt="Vertrieb Pfalzgut Frischdienst"
-              width="300" height="300" loading="lazy" />
-            <h4 class="team-card__name">[TODO: Name]</h4>
-            <p class="team-card__role">Vertrieb &amp; Beratung</p>
+            <svg class="team-card__photo" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+              <defs><clipPath id="pg-clip3"><circle cx="75" cy="75" r="75"/></clipPath></defs>
+              <circle cx="75" cy="75" r="75" fill="#0A3D2B"/>
+              <g clip-path="url(#pg-clip3)" fill="#F5FBF7" opacity="0.9">
+                <circle cx="75" cy="58" r="24"/>
+                <path d="M15 150c0-33.1 26.9-60 60-60s60 26.9 60 60"/>
+              </g>
+            </svg>
+            <p class="team-card__photo-note" style="font-size:0.85rem;color:var(--color-text-muted);font-style:italic;margin-top:0.5rem;">Ansprechpartner folgt</p>
           </div>
         </div>
       </div>
@@ -423,8 +403,7 @@
               <address class="contact-info-card__text" style="color:rgba(255,255,255,0.72);">
                 Pfalzgut Frischdienst GmbH<br>
                 Niederlassung Achern<br>
-                <!-- TODO: Adresse Achern erfragen -->
-                [TODO: Straße]<br>
+                Ambros-Nehren-Straße 15<br>
                 77855 Achern
               </address>
             </div>
@@ -437,7 +416,7 @@
             <div>
               <h3 class="contact-info-card__title" style="color:var(--color-white);">Telefon &amp; E-Mail</h3>
               <p class="contact-info-card__text" style="color:rgba(255,255,255,0.72);">
-                <a href="tel:+496333921221" style="color:rgba(255,255,255,0.85);">06333 9212-214</a><br>
+                <a href="tel:+4963339212214" style="color:rgba(255,255,255,0.85);">06333 9212-214</a><br>
                 <a href="mailto:achern@pfalzgut.de" style="color:rgba(255,255,255,0.85);">achern@pfalzgut.de</a>
               </p>
             </div>
@@ -449,10 +428,9 @@
             </svg>
             <div>
               <h3 class="contact-info-card__title" style="color:var(--color-white);">Öffnungszeiten</h3>
-              <!-- TODO: Öffnungszeiten Achern erfragen -->
               <dl class="hours-list" style="color:rgba(255,255,255,0.72);">
-                <dt style="color:var(--color-white);">Mo – Fr</dt><dd>[TODO] Uhr</dd>
-                <dt style="color:var(--color-white);">Samstag</dt><dd>Auf Anfrage</dd>
+                <dt style="color:var(--color-white);">Mo – Fr</dt><dd>8:00 – 15:00 Uhr</dd>
+                <dt style="color:var(--color-white);">Samstag</dt><dd>Geschlossen</dd>
                 <dt style="color:var(--color-white);">Sonntag</dt><dd>Geschlossen</dd>
               </dl>
             </div>
@@ -508,16 +486,13 @@
 
       <div>
         <div class="footer-brand__logo">
-          <svg width="40" height="40" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect width="44" height="44" rx="8" fill="#0A3D2B"/>
-            <text x="22" y="28" text-anchor="middle" font-family="Georgia, serif" font-size="12" font-weight="700" fill="#E8921A">PF</text>
-          </svg>
+          <img src="assets/images/logo-real.png" alt="Pfalzgut Frischdienst Logo" style="width:40px;height:auto;" />
           <span class="footer-brand__name">Pfalzgut Frischdienst</span>
         </div>
         <p class="footer-brand__desc">
           Pfalzgut Frischdienst GmbH – Ihr Spezialist für Frische- und
-          Molkereiprodukte. Bio-zertifiziert, ISO 9001 geprüft,
-          Express-Lieferung &lt; 24h. Seit 1986.
+          Tiefkühlprodukte. Bio-zertifiziert, ISO 9001 geprüft,
+          Lieferung &lt; 24h. Seit 1986.
         </p>
       </div>
 
@@ -541,13 +516,13 @@
             <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
             </svg>
-            <span><!-- TODO: Straße --> Achern</span>
+            <span>Ambros-Nehren-Straße 15<br>77855 Achern</span>
           </div>
           <div class="footer-contact__item">
             <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.7A2 2 0 012.18 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l1.46-1.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/>
             </svg>
-            <a href="tel:+496333921221">06333 9212-214</a>
+            <a href="tel:+4963339212214">06333 9212-214</a>
           </div>
           <div class="footer-contact__item">
             <svg class="footer-contact__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">

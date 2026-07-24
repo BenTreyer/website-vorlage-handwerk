@@ -98,9 +98,9 @@
   /* PHRASEN HIER ANPASSEN */
   const phrases = [
     'Qualität überzeugt.',
-    'Projekte, die bleiben.',
-    'Handwerk mit Herz.',
-    'Träume aus Holz.',
+    'Frische, die man schmeckt.',
+    'Zuverlässig geliefert.',
+    'Bestes frisch auf den Tisch.',
   ];
 
   let phraseIdx = 0;
